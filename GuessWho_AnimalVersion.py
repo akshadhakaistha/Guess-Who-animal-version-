@@ -7,10 +7,11 @@ animals = [
     {
         "name": "White Rhino",
         "emoji": "🦏",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
-        "ivory": True,
-        "region": "Africa",
+        "ivory": False,
+        "region": ["Africa"],
+        "habitat": ["savannah", "grassland", "shrubland", "woodland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -34,10 +35,11 @@ animals = [
     {
         "name": "Giant Panda",
         "emoji": "🐼",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "China",
+        "region": ["Asia"],
+        "habitat": ["temperate forest", "mountain forest", "bamboo forest"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -61,10 +63,11 @@ animals = [
     {
         "name": "Bengal Tiger",
         "emoji": "🐅",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "South Asia",
+        "region": ["Asia"],
+        "habitat": ["forest", "grassland", "savannah", "mangrove", "wetland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -88,10 +91,11 @@ animals = [
     {
         "name": "African Elephant",
         "emoji": "🐘",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
         "ivory": True,
-        "region": "Africa",
+        "region": ["Africa"],
+        "habitat": ["savannah", "grassland", "woodland", "forest", "wetland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -115,10 +119,11 @@ animals = [
     {
         "name": "Mountain Gorilla",
         "emoji": "🦍",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "Central Africa",
+        "region": ["Africa"],
+        "habitat": ["mountain forest", "bamboo forest", "montane grassland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -142,10 +147,11 @@ animals = [
     {
         "name": "Blue Whale",
         "emoji": "🐋",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Oceans worldwide",
+        "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
+        "habitat": ["open ocean", "coastal ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -169,10 +175,11 @@ animals = [
     {
         "name": "Vaquita",
         "emoji": "🐬",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Gulf of California",
+        "region": ["North America"],
+        "habitat": ["shallow coastal ocean", "marine waters"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -196,10 +203,11 @@ animals = [
     {
         "name": "Aye-Aye",
         "emoji": "🐒",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Omnivore",
         "ivory": False,
-        "region": "Madagascar",
+        "region": ["Africa"],
+        "habitat": ["tropical rainforest", "dry forest", "mangrove forest"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -223,10 +231,11 @@ animals = [
     {
         "name": "Dugong",
         "emoji": "🧜",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "Indian and western Pacific Oceans",
+        "region": ["Asia", "Oceania"],
+        "habitat": ["seagrass meadow", "shallow coastal ocean", "estuary"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -250,10 +259,11 @@ animals = [
     {
         "name": "Manatee",
         "emoji": "🦭",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "Americas and West Africa",
+        "region": ["North America", "Central America", "South America", "Africa"],
+        "habitat": ["river", "wetland", "estuary", "shallow coastal ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -277,10 +287,11 @@ animals = [
     {
         "name": "Pangolin",
         "emoji": "🛡️",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Africa and Asia",
+        "region": ["Africa", "Asia"],
+        "habitat": ["tropical forest", "savannah", "grassland", "woodland", "shrubland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -304,10 +315,11 @@ animals = [
     {
         "name": "Tasmanian Devil",
         "emoji": "😈",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Tasmania",
+        "region": ["Oceania"],
+        "habitat": ["temperate forest", "woodland", "grassland", "coastal scrub"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -331,10 +343,11 @@ animals = [
     {
         "name": "Platypus",
         "emoji": "🦦",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Eastern Australia",
+        "region": ["Oceania"],
+        "habitat": ["river", "stream", "freshwater wetland", "lakeshore"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": True,
@@ -358,10 +371,11 @@ animals = [
     {
         "name": "Sloth",
         "emoji": "🦥",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "Central and South America",
+        "region": ["Central America", "South America"],
+        "habitat": ["tropical rainforest", "tropical dry forest", "woodland", "mangrove forest"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -385,10 +399,11 @@ animals = [
     {
         "name": "Darwin's Fox",
         "emoji": "🦊",
-        "class": "Mammal",
+        "cLass": "Mammal",
         "diet": "Omnivore",
         "ivory": False,
-        "region": "Chile",
+        "region": ["South America"],
+        "habitat": ["temperate rainforest", "woodland", "shrubland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -415,10 +430,11 @@ animals = [
     {
         "name": "Hawksbill Sea Turtle",
         "emoji": "🐢",
-        "class": "Reptile",
+        "cLass": "Reptile",
         "diet": "Omnivore",
         "ivory": False,
-        "region": "Tropical oceans worldwide",
+        "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
+        "habitat": ["coral reef", "shallow coastal ocean", "seagrass meadow", "mangrove"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -442,10 +458,11 @@ animals = [
     {
         "name": "Chameleon",
         "emoji": "🦎",
-        "class": "Reptile",
+        "cLass": "Reptile",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Africa, Madagascar, southern Europe and Asia",
+        "region": ["Africa", "Asia", "Europe"],
+        "habitat": ["tropical forest", "dry forest", "woodland", "savannah", "shrubland", "grassland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -469,10 +486,11 @@ animals = [
     {
         "name": "Komodo Dragon",
         "emoji": "🐉",
-        "class": "Reptile",
+        "cLass": "Reptile",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Indonesia",
+        "region": ["Asia"],
+        "habitat": ["savannah", "woodland", "tropical forest", "coastal forest", "grassland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -499,10 +517,11 @@ animals = [
     {
         "name": "Axolotl",
         "emoji": "🧬",
-        "class": "Amphibian",
+        "cLass": "Amphibian",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Mexico",
+        "region": ["North America"],
+        "habitat": ["freshwater lake", "wetland", "freshwater canal"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -526,10 +545,11 @@ animals = [
     {
         "name": "Golden Poison Frog",
         "emoji": "🐸",
-        "class": "Amphibian",
+        "cLass": "Amphibian",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Colombia",
+        "region": ["South America"],
+        "habitat": ["tropical rainforest", "rainforest stream", "humid forest"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -556,10 +576,11 @@ animals = [
     {
         "name": "Coconut Crab",
         "emoji": "🦀",
-        "class": "Arthropod",
+        "cLass": "Arthropod",
         "diet": "Omnivore",
         "ivory": False,
-        "region": "Indian and Pacific Ocean islands",
+        "region": ["Asia", "Oceania"],
+        "habitat": ["tropical forest", "coastal forest", "beach", "island woodland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -583,10 +604,11 @@ animals = [
     {
         "name": "Monarch Butterfly",
         "emoji": "🦋",
-        "class": "Insect",
+        "cLass": "Insect",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "Americas",
+        "region": ["North America", "Central America", "South America"],
+        "habitat": ["grassland", "meadow", "woodland", "forest", "shrubland", "wetland"],
         "can_fly": True,
         "has_fur": False,
         "lays_eggs": True,
@@ -613,10 +635,11 @@ animals = [
     {
         "name": "Kakapo",
         "emoji": "🦜",
-        "class": "Bird",
+        "cLass": "Bird",
         "diet": "Herbivore",
         "ivory": False,
-        "region": "New Zealand",
+        "region": ["Oceania"],
+        "habitat": ["temperate forest", "shrubland", "grassland", "coastal forest"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -643,10 +666,11 @@ animals = [
     {
         "name": "Great Hammerhead Shark",
         "emoji": "🔨",
-        "class": "Fish",
+        "cLass": "Fish",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Tropical and temperate oceans",
+        "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
+        "habitat": ["coastal ocean", "coral reef", "continental shelf", "open ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -654,11 +678,12 @@ animals = [
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
-        "has_scales": False,
+        "has_scales": True,
         "iucn_status": "Critically Endangered",
         "fun_facts": [
             "The hammer-shaped head spreads the shark's electroreceptors across a wider area, helping it detect prey.",
-            "Hammerheads can use their broad heads to make tight turns while hunting."
+            "Hammerheads can use their broad heads to make tight turns while hunting.",
+            "Shark skin is covered in tiny tooth-like scales called dermal denticles."
         ],
         "data_facts": [
             "The great hammerhead is Critically Endangered.",
@@ -670,10 +695,11 @@ animals = [
     {
         "name": "Great White Shark",
         "emoji": "🦈",
-        "class": "Fish",
+        "cLass": "Fish",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Temperate and subtropical oceans",
+        "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
+        "habitat": ["coastal ocean", "open ocean", "continental shelf"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -681,11 +707,12 @@ animals = [
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
-        "has_scales": False,
+        "has_scales": True,
         "iucn_status": "Vulnerable",
         "fun_facts": [
             "Great white sharks are partially warm-bodied: special blood-vessel arrangements help keep parts of their bodies warmer than the surrounding water.",
-            "Their electroreceptors can detect extremely weak electrical signals produced by living animals."
+            "Their electroreceptors can detect extremely weak electrical signals produced by living animals.",
+            "Shark skin is covered in tiny tooth-like scales called dermal denticles."
         ],
         "data_facts": [
             "The great white shark is Vulnerable on the IUCN Red List.",
@@ -697,10 +724,11 @@ animals = [
     {
         "name": "Goblin Shark",
         "emoji": "👺",
-        "class": "Fish",
+        "cLass": "Fish",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Deep oceans worldwide",
+        "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
+        "habitat": ["deep ocean", "continental slope", "deep-sea floor"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -708,11 +736,12 @@ animals = [
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
-        "has_scales": False,
+        "has_scales": True,
         "iucn_status": "Least Concern",
         "fun_facts": [
             "The goblin shark has a spectacular protrusible jaw that can shoot forward to capture prey.",
-            "Its pinkish appearance comes partly from blood vessels showing through relatively translucent skin."
+            "Its pinkish appearance comes partly from blood vessels showing through relatively translucent skin.",
+            "Shark skin is covered in tiny tooth-like scales called dermal denticles."
         ],
         "data_facts": [
             "Goblin sharks are usually found in deep water, often hundreds of metres below the surface.",
@@ -724,10 +753,11 @@ animals = [
     {
         "name": "Lemon Shark",
         "emoji": "🍋",
-        "class": "Fish",
+        "cLass": "Fish",
         "diet": "Carnivore",
         "ivory": False,
-        "region": "Tropical and subtropical oceans",
+        "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
+        "habitat": ["coastal ocean", "coral reef", "mangrove", "seagrass meadow", "estuary"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -735,11 +765,12 @@ animals = [
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
-        "has_scales": False,
+        "has_scales": True,
         "iucn_status": "Vulnerable",
         "fun_facts": [
             "Lemon sharks get their yellowish colour from their skin, which helps them blend into sandy environments.",
-            "They are among the shark species known to show social behaviour and can form groups."
+            "They are among the shark species known to show social behaviour and can form groups.",
+            "Shark skin is covered in tiny tooth-like scales called dermal denticles."
         ],
         "data_facts": [
             "The lemon shark is Vulnerable on the IUCN Red List.",
@@ -749,22 +780,467 @@ animals = [
     }
 ]
 
+
+# ============================================================
+# QUESTION BANK
+# ============================================================
+
+Questions = [
+
+    {
+        "attribute": "cLass",
+        "questions": {
+            "Mammal": [
+                "Is it a mammal?"
+            ],
+            "Reptile": [
+                "Is it a reptile?"
+            ],
+            "Amphibian": [
+                "Is it an amphibian?"
+            ],
+            "Arthropod": [
+                "Is it an arthropod?"
+            ],
+            "Insect": [
+                "Is it an insect?"
+            ],
+            "Bird": [
+                "Is it a bird?"
+            ],
+            "Fish": [
+                "Is it a fish?"
+            ]
+        }
+    },
+
+    {
+        "attribute": "diet",
+        "questions": {
+            "Herbivore": [
+                "Does your animal eat only plants?",
+                "Is your animal a herbivore?"
+            ],
+            "Carnivore": [
+                "Is it a meat eater?",
+                "Is your animal a carnivore?"
+            ],
+            "Omnivore": [
+                "Does it eat both plants and animals?",
+                "Is your animal an omnivore?"
+            ]
+        }
+    },
+
+    {
+        "attribute": "has_fur",
+        "questions": [
+            "Does your animal have fur?",
+            "Does it have fur?",
+            "Is it furry?"
+        ]
+    },
+
+    {
+        "attribute": "lays_eggs",
+        "questions": [
+            "Does it lay eggs?",
+            "Is it egg-laying?"
+        ]
+    },
+
+    {
+        "attribute": "ivory",
+        "questions": [
+            "Does it have ivory?",
+            "Is it associated with ivory?",
+            "Is it hunted for ivory?"
+        ]
+    },
+
+    {
+        "attribute": "region",
+        "questions": {
+            "Africa": [
+                "Does it live in Africa?"
+            ],
+            "Asia": [
+                "Does it live in Asia?"
+            ],
+            "Europe": [
+                "Does it live in Europe?"
+            ],
+            "North America": [
+                "Does it live in North America?"
+            ],
+            "Central America": [
+                "Does it live in Central America?"
+            ],
+            "South America": [
+                "Does it live in South America?"
+            ],
+            "Oceania": [
+                "Does it live in Oceania?"
+            ]
+        }
+    },
+
+    {
+        "attribute": "habitat",
+        "questions": {
+            "savannah": [
+                "Does your animal live in savannah?"
+            ],
+            "grassland": [
+                "Does your animal live in grasslands?",
+                "Is your animal found in grassy open habitats?"
+            ],
+            "shrubland": [
+                "Does your animal live in shrubland?",
+                "Is your animal found in areas dominated by shrubs?"
+            ],
+            "wetland": [
+                "Does your animal live in wetlands?",
+                "Is your animal associated with wetland habitats?"
+            ],
+            "temperate forest": [
+                "Does your animal live in temperate forests?",
+                "Is your animal found in forests with a temperate climate?"
+            ],
+            "mountain forest": [
+                "Does your animal live in mountain forests?",
+                "Is your animal found in forests at high elevations?"
+            ],
+            "bamboo forest": [
+                "Does your animal live in bamboo forests?"
+            ],
+            "tropical forest": [
+                "Does your animal live in tropical forests?",
+                "Is your animal found in warm tropical forests?"
+            ],
+            "tropical rainforest": [
+                "Does your animal live in tropical rainforests?",
+                "Is your animal found in rainforest?"
+            ],
+            "tropical dry forest": [
+                "Does your animal live in tropical dry forests?"
+            ],
+            "dry forest": [
+                "Does your animal live in dry forests?"
+            ],
+            "woodland": [
+                "Does your animal live in woodland?",
+                "Is your animal found where trees are more widely spaced than in a dense forest?"
+            ],
+            "forest": [
+                "Does your animal live in forests?"
+            ],
+            "mangrove": [
+                "Does your animal live in mangrove habitats?",
+                "Is your animal associated with mangrove forests?"
+            ],
+            "mangrove forest": [
+                "Does your animal live in mangrove forests?"
+            ],
+            "open ocean": [
+                "Does your animal live in the open ocean?",
+                "Can your animal be found far offshore?"
+            ],
+            "coastal ocean": [
+                "Does your animal live in coastal ocean waters?",
+                "Is your animal found close to the coast?"
+            ],
+            "shallow coastal ocean": [
+                "Does your animal live in shallow coastal ocean?"
+            ],
+            "marine waters": [
+                "Does your animal live in marine waters?"
+            ],
+            "seagrass meadow": [
+                "Does your animal live in seagrass meadows?",
+                "Is your animal associated with underwater seagrass beds?"
+            ],
+            "coral reef": [
+                "Does your animal live around coral reefs?",
+                "Is your animal associated with coral reef ecosystems?"
+            ],
+            "river": [
+                "Does your animal live in rivers?",
+                "Is your animal found in flowing freshwater?"
+            ],
+            "stream": [
+                "Does your animal live in streams?"
+            ],
+            "freshwater stream": [
+                "Does your animal live in freshwater streams?",
+                "Is your animal found in small flowing freshwater habitats?"
+            ],
+            "rainforest stream": [
+                "Does your animal live near rainforest streams?"
+            ],
+            "freshwater wetland": [
+                "Does your animal live in freshwater wetlands?",
+                "Is your animal associated with freshwater wetlands?"
+            ],
+            "freshwater lake": [
+                "Does your animal live in freshwater lakes?"
+            ],
+            "freshwater canal": [
+                "Does your animal live in freshwater canals?"
+            ],
+            "lakeshore": [
+                "Does your animal live around lakeshores?"
+            ],
+            "estuary": [
+                "Does your animal live in estuaries?"
+            ],
+            "deep ocean": [
+                "Does your animal live in the deep ocean?",
+                "Is your animal found hundreds of metres below the surface?"
+            ],
+            "continental shelf": [
+                "Does your animal live around continental shelves?"
+            ],
+            "continental slope": [
+                "Does your animal live around continental slopes?"
+            ],
+            "deep-sea floor": [
+                "Does your animal live on the deep-sea floor?"
+            ],
+            "island": [
+                "Does your animal live on islands?",
+                "Is your animal naturally restricted to island habitats?"
+            ],
+            "island woodland": [
+                "Does your animal live in island woodland?"
+            ],
+            "coastal forest": [
+                "Does your animal live in coastal forests?",
+                "Is your animal found in forests near the sea?"
+            ],
+            "coastal scrub": [
+                "Does your animal live in coastal scrub?"
+            ],
+            "beach": [
+                "Does your animal live around beaches?"
+            ],
+            "meadow": [
+                "Does your animal live in meadows?",
+                "Is your animal found in open areas with grasses and flowering plants?"
+            ],
+            "humid forest": [
+                "Does your animal live in humid forests?"
+            ],
+            "montane grassland": [
+                "Does your animal live in montane grasslands?"
+            ]
+        }
+    },
+
+    {
+        "attribute": "can_fly",
+        "questions": [
+            "Can it fly?",
+            "Is your animal airborne?"
+        ]
+    },
+
+    {
+        "attribute": "legs",
+        "questions": {
+            0: [
+                "Is your animal legless?",
+                "Does your animal have no legs?"
+            ],
+            2: [
+                "Does your animal have 2 legs?",
+                "Is your animal two-legged?"
+            ],
+            4: [
+                "Does your animal have 4 legs?",
+                "Is your animal four-legged?"
+            ],
+            6: [
+                "Does your animal have 6 legs?",
+                "Is your animal six-legged?"
+            ],
+            10: [
+                "Does your animal have 10 legs?",
+                "Is your animal ten-legged?"
+            ]
+        }
+    },
+
+    {
+        "attribute": "tusks",
+        "questions": [
+            "Does it have tusks?",
+            "Is it associated with tusks?"
+        ]
+    },
+
+    {
+        "attribute": "has_horn",
+        "questions": [
+            "Does your animal have a horn on its nose?",
+            "Does your animal have a horn?"
+        ]
+    },
+
+    {
+        "attribute": "is_aquatic",
+        "questions": [
+            "Does your animal live in water?",
+            "Is your animal aquatic?"
+        ]
+    },
+
+    {
+        "attribute": "has_scales",
+        "questions": [
+            "Does your animal have scales?",
+            "Is your animal scaly?"
+        ]
+    }
+]
+
+
 computerAnimal = random.choice(animals)
+
 playerAnimal = random.choice(animals)
-print (f"Your animal is {playerAnimal["name"]}. Are you happy with this animal?")
+
+print(f"Your animal is {playerAnimal['name']}. Are you happy with this animal?")
+
 choice = input().lower()
 
 while choice != "yes":
+
     while choice != "yes" and choice != "no":
-     print(f"Please enter either yes or no")
-     choice = input().lower()
-    playerAnimal = random.choice(animals)
-    print(f"Your animal is {playerAnimal["name"]}. Are you happy with this now?")
-    choice = input().lower()
+        print("Please enter either yes or no")
+        choice = input().lower()
 
-print("Great! The computer has been assigned its animal, too. Let's start! The computer will ask you a question, please reply with 'yes', 'no', 'it depends', or 'I don't know' if you really don't know (idk is also acceptable). You can then ask a question of your own.")
+    if choice == "no":
+        playerAnimal = random.choice(animals)
 
+        print(
+            f"Your animal is {playerAnimal['name']}. "
+            "Are you happy with this now?"
+        )
 
-function 
+        choice = input().lower()
 
+print(
+    "Great! The computer has been assigned its animal, too. "
+)
+
+print("You both have one of these animals:")
+print()
+
+count = 0
+
+for animal in animals:
+    print(f"{animal['emoji']} {animal['name']:<20}",end="     ")
+    count = count + 1
+    if count == 4:
+     print(
+     )
+     count = 0
+
+print()
+print()
+print("Let's start! The computer will ask you a question, "
+    "please reply with 'yes', 'no', 'it depends', or "
+    "'I don't know' if you really don't know "
+    "(idk is also acceptable). You can then ask a question of your own.")
+
+def processAnswer(question,ans):
+   print(question)
+   answer = input().lower()
+   while answer != "idk" and answer != "i don't know" and answer != "depends" and answer != "yes" and answer != "no":
+      print("Please enter one of the following: 'yes', 'no', 'depends' or 'idk'/'I don't know'")
+      answer = input().lower()
+   if answer == "yes" or answer == "depends":
+      ans = True
+   elif answer == "no":
+      ans = False
+   return ans
+
+def askQ (animalAttribute):
+   options = []
+   for x in animalAttribute:
+      if type(x) == dict:
+         for y in x:
+          if y == "unknown":
+              options.append(x)
+      elif type(x) == list:
+         if x == "unknown":
+                  options.append(x)
+   attribute = random.choice(options)
+   question = (Questions(attribute))
+   return (question) and (attribute)
+   
+
+   
+
+      
+def animalAttribute(attribute,ans):
+   cLass = {
+    "Mammal": "unknown",
+    "Reptile": "unknown",
+    "Amphibian": "unknown",
+    "Arthropod": "unknown",
+    "Insect": "unknown",
+    "Bird": "unknown",
+    "Fish": "unknown"}
+   diet = {
+    "Herbivore": "unknown",
+    "Carnivore": "unknown",
+    "Omnivore": "unknown"} 
+   ivory = "unknown" 
+   region = {
+    "Africa": "unknown",
+    "Asia": "unknown",
+    "Europe": "unknown",
+    "North America": "unknown",
+    "Central America": "unknown",
+    "South America": "unknown",
+    "Oceania": "unknown"}
+   habitat = {
+    "grassland": "unknown",
+    "savannah": "unknown",
+    "shrubland": "unknown",
+    "wetland": "unknown",
+    "temperate forest": "unknown",
+    "mountain forest": "unknown",
+    "tropical forest": "unknown",
+    "tropical rainforest": "unknown",
+    "woodland": "unknown",
+    "mangrove": "unknown",
+    "open ocean": "unknown",
+    "coastal ocean": "unknown",
+    "seagrass meadow": "unknown",
+    "coral reef": "unknown",
+    "river": "unknown",
+    "freshwater wetland": "unknown",
+    "lake": "unknown",
+    "freshwater stream": "unknown",
+    "deep ocean": "unknown",
+    "island": "unknown",
+    "coastal forest": "unknown",
+    "meadow": "unknown"}
+   can_fly = "unknow"
+   has_fur = "unknown"
+   lays_eggs = "unknown"
+   legs = {
+    "0": "unknown",
+    "2": "unknown",
+    "4": "unknown",
+    "6": "unknown",
+    "10": "unknown"}
+   tusks = "unknown"
+   has_horn = "unknown"
+   is_aquatic = "unknown"
+   has_scales = "unknown"
+       
+   return [cLass, diet, ivory, region, habitat, can_fly, has_fur, lays_eggs, legs, tusk, has_horn, is_aquatic, has_scales]   
 
