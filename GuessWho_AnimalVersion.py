@@ -785,324 +785,304 @@ animals = [
 # QUESTION BANK
 # ============================================================
 
-Questions = [
-
-    {
-        "attribute": "cLass",
-        "questions": {
-            "Mammal": [
-                "Is it a mammal?"
+Questions = {
+   
+    "cLass" : {
+        "Mammal": [
+            "Is it a mammal?"
             ],
-            "Reptile": [
-                "Is it a reptile?"
+        "Reptile": [
+            "Is it a reptile?"
             ],
-            "Amphibian": [
-                "Is it an amphibian?"
+        "Amphibian": [
+            "Is it an amphibian?"
             ],
-            "Arthropod": [
-                "Is it an arthropod?"
+        "Arthropod": [
+            "Is it an arthropod?"
             ],
-            "Insect": [
-                "Is it an insect?"
+        "Insect": [
+            "Is it an insect?"
             ],
-            "Bird": [
-                "Is it a bird?"
+        "Bird": [
+            "Is it a bird?"
             ],
-            "Fish": [
-                "Is it a fish?"
+        "Fish": [
+            "Is it a fish?"
             ]
-        }
+    },
+    
+
+    
+    "diet" : {
+           
+        "Herbivore": [
+            "Does your animal eat only plants?",
+            "Is your animal a herbivore?"
+            ],
+        "Carnivore": [
+            "Is it a meat eater?",
+            "Is your animal a carnivore?"
+            ],
+        "Omnivore": [
+            "Does it eat both plants and animals?",
+            "Is your animal an omnivore?"
+            ]
     },
 
-    {
-        "attribute": "diet",
-        "questions": {
-            "Herbivore": [
-                "Does your animal eat only plants?",
-                "Is your animal a herbivore?"
-            ],
-            "Carnivore": [
-                "Is it a meat eater?",
-                "Is your animal a carnivore?"
-            ],
-            "Omnivore": [
-                "Does it eat both plants and animals?",
-                "Is your animal an omnivore?"
-            ]
-        }
-    },
-
-    {
-        "attribute": "has_fur",
-        "questions": [
+    "has_fur" : {
+        "determine" : [
             "Does your animal have fur?",
             "Does it have fur?",
             "Is it furry?"
         ]
     },
 
-    {
-        "attribute": "lays_eggs",
-        "questions": [
+    "lays_eggs" : {
+        "determine": [
             "Does it lay eggs?",
             "Is it egg-laying?"
         ]
     },
 
-    {
-        "attribute": "ivory",
-        "questions": [
+    "ivory" : {
+        "determine": [
             "Does it have ivory?",
             "Is it associated with ivory?",
             "Is it hunted for ivory?"
         ]
     },
 
-    {
-        "attribute": "region",
-        "questions": {
-            "Africa": [
+    "region" : {
+        "Africa": [
                 "Does it live in Africa?"
             ],
-            "Asia": [
+        "Asia": [
                 "Does it live in Asia?"
             ],
-            "Europe": [
+        "Europe": [
                 "Does it live in Europe?"
             ],
-            "North America": [
+        "North America": [
                 "Does it live in North America?"
             ],
-            "Central America": [
+        "Central America": [
                 "Does it live in Central America?"
             ],
-            "South America": [
+        "South America": [
                 "Does it live in South America?"
             ],
-            "Oceania": [
+        "Oceania": [
                 "Does it live in Oceania?"
             ]
-        }
     },
 
-    {
-        "attribute": "habitat",
-        "questions": {
-            "savannah": [
+    "habitat" : {
+        "savannah": [
                 "Does your animal live in savannah?"
             ],
-            "grassland": [
+        "grassland": [
                 "Does your animal live in grasslands?",
                 "Is your animal found in grassy open habitats?"
             ],
-            "shrubland": [
+        "shrubland": [
                 "Does your animal live in shrubland?",
                 "Is your animal found in areas dominated by shrubs?"
             ],
-            "wetland": [
+        "wetland": [
                 "Does your animal live in wetlands?",
                 "Is your animal associated with wetland habitats?"
             ],
-            "temperate forest": [
+        "temperate forest": [
                 "Does your animal live in temperate forests?",
                 "Is your animal found in forests with a temperate climate?"
             ],
-            "mountain forest": [
+        "mountain forest": [
                 "Does your animal live in mountain forests?",
                 "Is your animal found in forests at high elevations?"
             ],
-            "bamboo forest": [
+        "bamboo forest": [
                 "Does your animal live in bamboo forests?"
             ],
-            "tropical forest": [
+        "tropical forest": [
                 "Does your animal live in tropical forests?",
                 "Is your animal found in warm tropical forests?"
             ],
-            "tropical rainforest": [
+        "tropical rainforest": [
                 "Does your animal live in tropical rainforests?",
                 "Is your animal found in rainforest?"
             ],
-            "tropical dry forest": [
+        "tropical dry forest": [
                 "Does your animal live in tropical dry forests?"
             ],
-            "dry forest": [
+        "dry forest": [
                 "Does your animal live in dry forests?"
             ],
-            "woodland": [
+        "woodland": [
                 "Does your animal live in woodland?",
                 "Is your animal found where trees are more widely spaced than in a dense forest?"
             ],
-            "forest": [
+        "forest": [
                 "Does your animal live in forests?"
             ],
-            "mangrove": [
+        "mangrove": [
                 "Does your animal live in mangrove habitats?",
                 "Is your animal associated with mangrove forests?"
             ],
-            "mangrove forest": [
+        "mangrove forest": [
                 "Does your animal live in mangrove forests?"
             ],
-            "open ocean": [
+        "open ocean": [
                 "Does your animal live in the open ocean?",
                 "Can your animal be found far offshore?"
             ],
-            "coastal ocean": [
+        "coastal ocean": [
                 "Does your animal live in coastal ocean waters?",
                 "Is your animal found close to the coast?"
             ],
-            "shallow coastal ocean": [
+        "shallow coastal ocean": [
                 "Does your animal live in shallow coastal ocean?"
             ],
-            "marine waters": [
+        "marine waters": [
                 "Does your animal live in marine waters?"
             ],
-            "seagrass meadow": [
+        "seagrass meadow": [
                 "Does your animal live in seagrass meadows?",
                 "Is your animal associated with underwater seagrass beds?"
             ],
-            "coral reef": [
+        "coral reef": [
                 "Does your animal live around coral reefs?",
                 "Is your animal associated with coral reef ecosystems?"
             ],
-            "river": [
+        "river": [
                 "Does your animal live in rivers?",
                 "Is your animal found in flowing freshwater?"
             ],
-            "stream": [
+        "stream": [
                 "Does your animal live in streams?"
             ],
-            "freshwater stream": [
+        "freshwater stream": [
                 "Does your animal live in freshwater streams?",
                 "Is your animal found in small flowing freshwater habitats?"
             ],
-            "rainforest stream": [
+        "rainforest stream": [
                 "Does your animal live near rainforest streams?"
             ],
-            "freshwater wetland": [
+        "freshwater wetland": [
                 "Does your animal live in freshwater wetlands?",
                 "Is your animal associated with freshwater wetlands?"
             ],
-            "freshwater lake": [
+        "freshwater lake": [
                 "Does your animal live in freshwater lakes?"
             ],
-            "freshwater canal": [
+        "freshwater canal": [
                 "Does your animal live in freshwater canals?"
             ],
-            "lakeshore": [
+        "lakeshore": [
                 "Does your animal live around lakeshores?"
             ],
-            "estuary": [
+        "estuary": [
                 "Does your animal live in estuaries?"
             ],
-            "deep ocean": [
+        "deep ocean": [
                 "Does your animal live in the deep ocean?",
                 "Is your animal found hundreds of metres below the surface?"
             ],
-            "continental shelf": [
+        "continental shelf": [
                 "Does your animal live around continental shelves?"
             ],
-            "continental slope": [
+        "continental slope": [
                 "Does your animal live around continental slopes?"
             ],
-            "deep-sea floor": [
+        "deep-sea floor": [
                 "Does your animal live on the deep-sea floor?"
             ],
-            "island": [
+        "island": [
                 "Does your animal live on islands?",
                 "Is your animal naturally restricted to island habitats?"
             ],
-            "island woodland": [
+        "island woodland": [
                 "Does your animal live in island woodland?"
             ],
-            "coastal forest": [
+        "coastal forest": [
                 "Does your animal live in coastal forests?",
                 "Is your animal found in forests near the sea?"
             ],
-            "coastal scrub": [
+        "coastal scrub": [
                 "Does your animal live in coastal scrub?"
             ],
-            "beach": [
+        "beach": [
                 "Does your animal live around beaches?"
             ],
-            "meadow": [
+        "meadow": [
                 "Does your animal live in meadows?",
                 "Is your animal found in open areas with grasses and flowering plants?"
             ],
-            "humid forest": [
+        "humid forest": [
                 "Does your animal live in humid forests?"
             ],
-            "montane grassland": [
+        "montane grassland": [
                 "Does your animal live in montane grasslands?"
             ]
-        }
     },
 
-    {
-        "attribute": "can_fly",
-        "questions": [
+   "can_fly" : {
+        "determine": [
             "Can it fly?",
             "Is your animal airborne?"
         ]
     },
 
-    {
-        "attribute": "legs",
-        "questions": {
-            0: [
+    "legs" : {
+        0: [
                 "Is your animal legless?",
                 "Does your animal have no legs?"
             ],
-            2: [
+        2: [
                 "Does your animal have 2 legs?",
                 "Is your animal two-legged?"
             ],
-            4: [
+        4: [
                 "Does your animal have 4 legs?",
                 "Is your animal four-legged?"
             ],
-            6: [
+        6: [
                 "Does your animal have 6 legs?",
                 "Is your animal six-legged?"
             ],
-            10: [
+        10: [
                 "Does your animal have 10 legs?",
                 "Is your animal ten-legged?"
             ]
-        }
     },
-
-    {
-        "attribute": "tusks",
-        "questions": [
+    
+    "tusks" : {
+        "determine": [
             "Does it have tusks?",
             "Is it associated with tusks?"
         ]
     },
 
-    {
-        "attribute": "has_horn",
-        "questions": [
+    "has_horn" : {
+        "determine": [
             "Does your animal have a horn on its nose?",
             "Does your animal have a horn?"
         ]
     },
 
-    {
-        "attribute": "is_aquatic",
-        "questions": [
+    "is_aquatic" : {
+        "determine": [
             "Does your animal live in water?",
             "Is your animal aquatic?"
         ]
     },
 
-    {
-        "attribute": "has_scales",
-        "questions": [
+    "has_scales" : {
+        "determine": [
             "Does your animal have scales?",
             "Is your animal scaly?"
         ]
     }
-]
+}
 
 
 computerAnimal = random.choice(animals)
@@ -1169,78 +1149,95 @@ def askQ (animalAttribute):
    options = []
    for x in animalAttribute:
       if type(x) == dict:
-         for y in x:
+         for y in x.value:
           if y == "unknown":
-              options.append(x)
-      elif type(x) == list:
-         if x == "unknown":
-                  options.append(x)
-   attribute = random.choice(options)
-   question = (Questions(attribute))
-   return (question) and (attribute)
-   
-
-   
-
+              options.append(x.key)
+      elif x == "unknown":
+        options.append(x)
+   Attribute = random.choice(options)
+   question = (Questions[Attribute[random(question.value)]])
+   return (question) and (Attribute)
       
-def animalAttribute(attribute,ans):
-   cLass = {
-    "Mammal": "unknown",
-    "Reptile": "unknown",
-    "Amphibian": "unknown",
-    "Arthropod": "unknown",
-    "Insect": "unknown",
-    "Bird": "unknown",
-    "Fish": "unknown"}
-   diet = {
-    "Herbivore": "unknown",
-    "Carnivore": "unknown",
-    "Omnivore": "unknown"} 
-   ivory = "unknown" 
-   region = {
-    "Africa": "unknown",
-    "Asia": "unknown",
-    "Europe": "unknown",
-    "North America": "unknown",
-    "Central America": "unknown",
-    "South America": "unknown",
-    "Oceania": "unknown"}
-   habitat = {
-    "grassland": "unknown",
-    "savannah": "unknown",
-    "shrubland": "unknown",
-    "wetland": "unknown",
-    "temperate forest": "unknown",
-    "mountain forest": "unknown",
-    "tropical forest": "unknown",
-    "tropical rainforest": "unknown",
-    "woodland": "unknown",
-    "mangrove": "unknown",
-    "open ocean": "unknown",
-    "coastal ocean": "unknown",
-    "seagrass meadow": "unknown",
-    "coral reef": "unknown",
-    "river": "unknown",
-    "freshwater wetland": "unknown",
-    "lake": "unknown",
-    "freshwater stream": "unknown",
-    "deep ocean": "unknown",
-    "island": "unknown",
-    "coastal forest": "unknown",
-    "meadow": "unknown"}
-   can_fly = "unknow"
-   has_fur = "unknown"
-   lays_eggs = "unknown"
-   legs = {
-    "0": "unknown",
-    "2": "unknown",
-    "4": "unknown",
-    "6": "unknown",
-    "10": "unknown"}
-   tusks = "unknown"
-   has_horn = "unknown"
-   is_aquatic = "unknown"
-   has_scales = "unknown"
-       
-   return [cLass, diet, ivory, region, habitat, can_fly, has_fur, lays_eggs, legs, tusk, has_horn, is_aquatic, has_scales]   
+def animalAttribute(Bank,attribute,ans):
+ if type(Bank[attribute]) == "list":
+  Bank(attribute.value) = ans
+ else:
+  return Bank 
 
+
+Bank = {
+    "cLass" : {
+       "Mammal": "unknown",
+       "Reptile": "unknown",
+       "Amphibian": "unknown",
+       "Arthropod": "unknown",
+       "Insect": "unknown",
+       "Bird": "unknown",
+       "Fish": "unknown"},
+       
+    "diet" : {
+       "Herbivore": "unknown",
+       "Carnivore": "unknown",
+       "Omnivore": "unknown"},
+
+    "ivory" : {"determine":"unknown"},
+
+    "region" : {
+       "Africa": "unknown",
+       "Asia": "unknown",
+       "Europe": "unknown",
+       "North America": "unknown",
+       "Central America": "unknown",
+       "South America": "unknown",
+       "Oceania": "unknown"},
+
+    "habitat" : {
+       "grassland": "unknown",
+       "savannah": "unknown",
+       "shrubland": "unknown",
+       "wetland": "unknown",
+       "temperate forest": "unknown",
+       "mountain forest": "unknown",
+       "tropical forest": "unknown",
+       "tropical rainforest": "unknown",
+       "woodland": "unknown",
+       "mangrove": "unknown",
+       "open ocean": "unknown",
+       "coastal ocean": "unknown",
+       "seagrass meadow": "unknown",
+       "coral reef": "unknown",
+       "river": "unknown",
+       "freshwater wetland": "unknown",
+       "lake": "unknown",
+       "freshwater stream": "unknown",
+       "deep ocean": "unknown",
+       "island": "unknown",
+       "coastal forest": "unknown",
+       "meadow": "unknown"},
+
+    "can_fly" : {"determine":"unknown"},
+
+    "has_fur" : {"determine":"unknown"},
+
+    "lays_eggs" : {"determine":"unknown"},
+
+    "legs" : {
+       0: "unknown",
+       2: "unknown",
+       4: "unknown",
+       6: "unknown",
+       10: "unknown"},
+
+      "tusks" : {"determine":"unknown"},
+
+      "has_horn" : {"determine":"unknown"},
+
+      "is_aquatic" : {"determine":"unknown"},
+
+      "has_scales" : {"determine":"unknown"},
+
+}
+
+question, attribute = askQ()
+attribute, ans = animalAttribute
+processAnswer(question,ans)
