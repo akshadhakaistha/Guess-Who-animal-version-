@@ -7,15 +7,15 @@ animals = [
     {
         "name": "White Rhino",
         "emoji": "🦏",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["Africa"],
         "habitat": ["savannah", "grassland", "shrubland", "woodland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": True,
         "is_aquatic": False,
@@ -35,15 +35,15 @@ animals = [
     {
         "name": "Giant Panda",
         "emoji": "🐼",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["Asia"],
         "habitat": ["temperate forest", "mountain forest", "bamboo forest"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -63,15 +63,15 @@ animals = [
     {
         "name": "Bengal Tiger",
         "emoji": "🐅",
-        "cLass": "Mammal",
-        "diet": "Carnivore",
+        "cLass": "mammal",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Asia"],
         "habitat": ["forest", "grassland", "savannah", "mangrove", "wetland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -91,15 +91,15 @@ animals = [
     {
         "name": "African Elephant",
         "emoji": "🐘",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": True,
         "region": ["Africa"],
         "habitat": ["savannah", "grassland", "woodland", "forest", "wetland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": True,
         "has_horn": False,
         "is_aquatic": False,
@@ -119,15 +119,15 @@ animals = [
     {
         "name": "Mountain Gorilla",
         "emoji": "🦍",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["Africa"],
         "habitat": ["mountain forest", "bamboo forest", "montane grassland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -147,15 +147,15 @@ animals = [
     {
         "name": "Blue Whale",
         "emoji": "🐋",
-        "cLass": "Mammal",
-        "diet": "Carnivore",
+        "cLass": "mammal",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
         "habitat": ["open ocean", "coastal ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -175,15 +175,15 @@ animals = [
     {
         "name": "Vaquita",
         "emoji": "🐬",
-        "cLass": "Mammal",
-        "diet": "Carnivore",
+        "cLass": "mammal",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["North America"],
         "habitat": ["shallow coastal ocean", "marine waters"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -203,15 +203,15 @@ animals = [
     {
         "name": "Aye-Aye",
         "emoji": "🐒",
-        "cLass": "Mammal",
-        "diet": "Omnivore",
+        "cLass": "mammal",
+        "diet": "omnivore",
         "ivory": False,
         "region": ["Africa"],
         "habitat": ["tropical rainforest", "dry forest", "mangrove forest"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -231,15 +231,15 @@ animals = [
     {
         "name": "Dugong",
         "emoji": "🧜",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["Asia", "Oceania"],
         "habitat": ["seagrass meadow", "shallow coastal ocean", "estuary"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -259,15 +259,15 @@ animals = [
     {
         "name": "Manatee",
         "emoji": "🦭",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["North America", "Central America", "South America", "Africa"],
         "habitat": ["river", "wetland", "estuary", "shallow coastal ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -287,15 +287,15 @@ animals = [
     {
         "name": "Pangolin",
         "emoji": "🛡️",
-        "cLass": "Mammal",
-        "diet": "Carnivore",
+        "cLass": "mammal",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia"],
         "habitat": ["tropical forest", "savannah", "grassland", "woodland", "shrubland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -315,15 +315,15 @@ animals = [
     {
         "name": "Tasmanian Devil",
         "emoji": "😈",
-        "cLass": "Mammal",
-        "diet": "Carnivore",
+        "cLass": "mammal",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Oceania"],
         "habitat": ["temperate forest", "woodland", "grassland", "coastal scrub"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -343,15 +343,15 @@ animals = [
     {
         "name": "Platypus",
         "emoji": "🦦",
-        "cLass": "Mammal",
-        "diet": "Carnivore",
+        "cLass": "mammal",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Oceania"],
         "habitat": ["river", "stream", "freshwater wetland", "lakeshore"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": True,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -371,15 +371,15 @@ animals = [
     {
         "name": "Sloth",
         "emoji": "🦥",
-        "cLass": "Mammal",
-        "diet": "Herbivore",
+        "cLass": "mammal",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["Central America", "South America"],
         "habitat": ["tropical rainforest", "tropical dry forest", "woodland", "mangrove forest"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -399,15 +399,15 @@ animals = [
     {
         "name": "Darwin's Fox",
         "emoji": "🦊",
-        "cLass": "Mammal",
-        "diet": "Omnivore",
+        "cLass": "mammal",
+        "diet": "omnivore",
         "ivory": False,
         "region": ["South America"],
         "habitat": ["temperate rainforest", "woodland", "shrubland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -430,15 +430,15 @@ animals = [
     {
         "name": "Hawksbill Sea Turtle",
         "emoji": "🐢",
-        "cLass": "Reptile",
-        "diet": "Omnivore",
+        "cLass": "reptile",
+        "diet": "omnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
         "habitat": ["coral reef", "shallow coastal ocean", "seagrass meadow", "mangrove"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -458,15 +458,15 @@ animals = [
     {
         "name": "Chameleon",
         "emoji": "🦎",
-        "cLass": "Reptile",
-        "diet": "Carnivore",
+        "cLass": "reptile",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe"],
         "habitat": ["tropical forest", "dry forest", "woodland", "savannah", "shrubland", "grassland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -486,15 +486,15 @@ animals = [
     {
         "name": "Komodo Dragon",
         "emoji": "🐉",
-        "cLass": "Reptile",
-        "diet": "Carnivore",
+        "cLass": "reptile",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Asia"],
         "habitat": ["savannah", "woodland", "tropical forest", "coastal forest", "grassland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -517,15 +517,15 @@ animals = [
     {
         "name": "Axolotl",
         "emoji": "🧬",
-        "cLass": "Amphibian",
-        "diet": "Carnivore",
+        "cLass": "amphibian",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["North America"],
         "habitat": ["freshwater lake", "wetland", "freshwater canal"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -545,15 +545,15 @@ animals = [
     {
         "name": "Golden Poison Frog",
         "emoji": "🐸",
-        "cLass": "Amphibian",
-        "diet": "Carnivore",
+        "cLass": "amphibian",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["South America"],
         "habitat": ["tropical rainforest", "rainforest stream", "humid forest"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 4,
+        "legs": "4",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -576,15 +576,15 @@ animals = [
     {
         "name": "Coconut Crab",
         "emoji": "🦀",
-        "cLass": "Arthropod",
-        "diet": "Omnivore",
+        "cLass": "arthropod",
+        "diet": "omnivore",
         "ivory": False,
         "region": ["Asia", "Oceania"],
         "habitat": ["tropical forest", "coastal forest", "beach", "island woodland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 10,
+        "legs": "10",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -604,15 +604,15 @@ animals = [
     {
         "name": "Monarch Butterfly",
         "emoji": "🦋",
-        "cLass": "Insect",
-        "diet": "Herbivore",
+        "cLass": "insect",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["North America", "Central America", "South America"],
         "habitat": ["grassland", "meadow", "woodland", "forest", "shrubland", "wetland"],
         "can_fly": True,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 6,
+        "legs": "6",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -635,15 +635,15 @@ animals = [
     {
         "name": "Kakapo",
         "emoji": "🦜",
-        "cLass": "Bird",
-        "diet": "Herbivore",
+        "cLass": "bird",
+        "diet": "herbivore",
         "ivory": False,
         "region": ["Oceania"],
         "habitat": ["temperate forest", "shrubland", "grassland", "coastal forest"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
-        "legs": 2,
+        "legs": "2",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": False,
@@ -666,15 +666,15 @@ animals = [
     {
         "name": "Great Hammerhead Shark",
         "emoji": "🔨",
-        "cLass": "Fish",
-        "diet": "Carnivore",
+        "cLass": "fish",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
         "habitat": ["coastal ocean", "coral reef", "continental shelf", "open ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -695,15 +695,15 @@ animals = [
     {
         "name": "Great White Shark",
         "emoji": "🦈",
-        "cLass": "Fish",
-        "diet": "Carnivore",
+        "cLass": "fish",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
         "habitat": ["coastal ocean", "open ocean", "continental shelf"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -716,7 +716,7 @@ animals = [
         ],
         "data_facts": [
             "The great white shark is Vulnerable on the IUCN Red List.",
-            "Fishing pressure, including accidental capture as bycatch, is an important threat.",
+            "fishing pressure, including accidental capture as bycatch, is an important threat.",
             "Great whites have cartilage rather than true bone in their skeletons."
         ]
     },
@@ -724,15 +724,15 @@ animals = [
     {
         "name": "Goblin Shark",
         "emoji": "👺",
-        "cLass": "Fish",
-        "diet": "Carnivore",
+        "cLass": "fish",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
         "habitat": ["deep ocean", "continental slope", "deep-sea floor"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -751,17 +751,17 @@ animals = [
     },
 
     {
-        "name": "Lemon Shark",
+        "name": "lemon shark",
         "emoji": "🍋",
-        "cLass": "Fish",
-        "diet": "Carnivore",
+        "cLass": "fish",
+        "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
         "habitat": ["coastal ocean", "coral reef", "mangrove", "seagrass meadow", "estuary"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
-        "legs": 0,
+        "legs": "0",
         "tusks": False,
         "has_horn": False,
         "is_aquatic": True,
@@ -780,33 +780,28 @@ animals = [
     }
 ]
 
-
-# ============================================================
-# QUESTION BANK
-# ============================================================
-
 Questions = {
    
     "cLass" : {
-        "Mammal": [
+        "mammal": [
             "Is it a mammal?"
             ],
-        "Reptile": [
+        "reptile": [
             "Is it a reptile?"
             ],
-        "Amphibian": [
+        "amphibian": [
             "Is it an amphibian?"
             ],
-        "Arthropod": [
+        "arthropod": [
             "Is it an arthropod?"
             ],
-        "Insect": [
+        "insect": [
             "Is it an insect?"
             ],
-        "Bird": [
+        "bird": [
             "Is it a bird?"
             ],
-        "Fish": [
+        "fish": [
             "Is it a fish?"
             ]
     },
@@ -815,22 +810,22 @@ Questions = {
     
     "diet" : {
            
-        "Herbivore": [
+        "herbivore": [
             "Does your animal eat only plants?",
             "Is your animal a herbivore?"
             ],
-        "Carnivore": [
+        "carnivore": [
             "Is it a meat eater?",
             "Is your animal a carnivore?"
             ],
-        "Omnivore": [
+        "omnivore": [
             "Does it eat both plants and animals?",
             "Is your animal an omnivore?"
             ]
     },
 
     "has_fur" : {
-        "determine" : [
+        "Tracker" : [
             "Does your animal have fur?",
             "Does it have fur?",
             "Is it furry?"
@@ -838,14 +833,14 @@ Questions = {
     },
 
     "lays_eggs" : {
-        "determine": [
+        "Tracker": [
             "Does it lay eggs?",
             "Is it egg-laying?"
         ]
     },
 
     "ivory" : {
-        "determine": [
+        "Tracker": [
             "Does it have ivory?",
             "Is it associated with ivory?",
             "Is it hunted for ivory?"
@@ -1026,58 +1021,58 @@ Questions = {
     },
 
    "can_fly" : {
-        "determine": [
+        "Tracker": [
             "Can it fly?",
             "Is your animal airborne?"
         ]
     },
 
     "legs" : {
-        0: [
+        "0": [
                 "Is your animal legless?",
                 "Does your animal have no legs?"
             ],
-        2: [
+        "2": [
                 "Does your animal have 2 legs?",
                 "Is your animal two-legged?"
             ],
-        4: [
+        "4": [
                 "Does your animal have 4 legs?",
                 "Is your animal four-legged?"
             ],
-        6: [
+        "6": [
                 "Does your animal have 6 legs?",
                 "Is your animal six-legged?"
             ],
-        10: [
+        "10": [
                 "Does your animal have 10 legs?",
                 "Is your animal ten-legged?"
             ]
     },
     
     "tusks" : {
-        "determine": [
+        "Tracker": [
             "Does it have tusks?",
             "Is it associated with tusks?"
         ]
     },
 
     "has_horn" : {
-        "determine": [
+        "Tracker": [
             "Does your animal have a horn on its nose?",
             "Does your animal have a horn?"
         ]
     },
 
     "is_aquatic" : {
-        "determine": [
+        "Tracker": [
             "Does your animal live in water?",
             "Is your animal aquatic?"
         ]
     },
 
     "has_scales" : {
-        "determine": [
+        "Tracker": [
             "Does your animal have scales?",
             "Is your animal scaly?"
         ]
@@ -1086,6 +1081,7 @@ Questions = {
 
 
 computerAnimal = random.choice(animals)
+print(computerAnimal["name"])
 
 playerAnimal = random.choice(animals)
 
@@ -1133,56 +1129,27 @@ print("Let's start! The computer will ask you a question, "
     "'I don't know' if you really don't know "
     "(idk is also acceptable). You can then ask a question of your own.")
 
-def processAnswer(question,ans):
-   print(question)
-   answer = input().lower()
-   while answer != "idk" and answer != "i don't know" and answer != "depends" and answer != "yes" and answer != "no":
-      print("Please enter one of the following: 'yes', 'no', 'depends' or 'idk'/'I don't know'")
-      answer = input().lower()
-   if answer == "yes" or answer == "depends":
-      ans = True
-   elif answer == "no":
-      ans = False
-   return ans
-
-def askQ (animalAttribute):
-   options = []
-   for x in animalAttribute:
-      if type(x) == dict:
-         for y in x.value:
-          if y == "unknown":
-              options.append(x.key)
-      elif x == "unknown":
-        options.append(x)
-   Attribute = random.choice(options)
-   question = (Questions[Attribute[random(question.value)]])
-   return (question) and (Attribute)
-      
-def animalAttribute(Bank,attribute,ans):
- if type(Bank[attribute]) == "list":
-  Bank(attribute.value) = ans
- else:
-  return Bank 
-
-
 Bank = {
-    "cLass" : {
-       "Mammal": "unknown",
-       "Reptile": "unknown",
-       "Amphibian": "unknown",
-       "Arthropod": "unknown",
-       "Insect": "unknown",
-       "Bird": "unknown",
-       "Fish": "unknown"},
+     "cLass" : {
+       "Tracker":"unknown",
+       "mammal": "unknown",
+       "reptile": "unknown",
+       "amphibian": "unknown",
+       "arthropod": "unknown",
+       "insect": "unknown",
+       "bird": "unknown",
+       "fish": "unknown"},
        
-    "diet" : {
-       "Herbivore": "unknown",
-       "Carnivore": "unknown",
-       "Omnivore": "unknown"},
+     "diet" : {
+       "Tracker":"unknown",
+       "herbivore": "unknown",
+       "carnivore": "unknown",
+       "omnivore": "unknown"},
 
-    "ivory" : {"determine":"unknown"},
+     "ivory" : {"Tracker":"unknown"},
 
-    "region" : {
+     "region" : {
+       "Tracker":"unknown",
        "Africa": "unknown",
        "Asia": "unknown",
        "Europe": "unknown",
@@ -1191,7 +1158,8 @@ Bank = {
        "South America": "unknown",
        "Oceania": "unknown"},
 
-    "habitat" : {
+     "habitat" : {
+       "Tracker":"unknown",
        "grassland": "unknown",
        "savannah": "unknown",
        "shrubland": "unknown",
@@ -1215,29 +1183,384 @@ Bank = {
        "coastal forest": "unknown",
        "meadow": "unknown"},
 
-    "can_fly" : {"determine":"unknown"},
+     "can_fly" : {"Tracker":"unknown"},
 
-    "has_fur" : {"determine":"unknown"},
+     "has_fur" : {"Tracker":"unknown"},
 
-    "lays_eggs" : {"determine":"unknown"},
+     "lays_eggs" : {"Tracker":"unknown"},
 
-    "legs" : {
-       0: "unknown",
-       2: "unknown",
-       4: "unknown",
-       6: "unknown",
-       10: "unknown"},
+     "legs" : {
+       "Tracker":"unknown",
+       "0": "unknown",
+       "2": "unknown",
+       "4": "unknown",
+       "6": "unknown",
+       "10": "unknown"},
 
-      "tusks" : {"determine":"unknown"},
+     "tusks" : {"Tracker":"unknown"},
 
-      "has_horn" : {"determine":"unknown"},
+     "has_horn" : {"Tracker":"unknown"},
 
-      "is_aquatic" : {"determine":"unknown"},
+     "is_aquatic" : {"Tracker":"unknown"},
 
-      "has_scales" : {"determine":"unknown"},
+     "has_scales" : {"Tracker":"unknown"},
 
-}
+ }
 
-question, attribute = askQ()
-attribute, ans = animalAttribute
-processAnswer(question,ans)
+def askQ(Bank):
+     options = []
+     for attribute, values in Bank.items():
+        if attribute in ["cLass", "diet", "legs", "habitat", "region"]:
+            if values["Tracker"] == "unknown":
+                for value, status in values.items():
+                    if value != "Tracker" and status == "unknown":
+                        options.append((attribute, value))
+        else:
+            if values["Tracker"] == "unknown":
+                options.append((attribute, "Tracker"))
+     attribute, value = random.choice(options)
+     question = random.choice(Questions[attribute][value])
+     return question, attribute, value
+
+def processAnswer(question):
+
+    print(question)
+    answer = input().lower()
+
+    while answer not in ["idk", "i don't know", "depends", "yes", "no"]:
+        print("Please enter one of the following: 'yes', 'no', 'depends' or 'idk'/'I don't know'")
+        answer = input().lower()
+
+    if answer in ["yes","depends"]:
+        return True
+
+    elif answer == "no":
+        return False
+
+    else:
+        return "unknown"
+
+def updateBank(Bank,attribute, value, ans):
+    Bank[attribute][value] = ans
+    if Bank[attribute] in ["cLass","diet","legs"]:
+        if ans == True:
+          Bank[attribute]["Tracker"] = "Known"
+    return Bank
+
+def PlayerQ():
+
+    print("Your turn - ask a question! Please enusure it is about of the following:")
+    print("1. What class is it?")
+    print("2. What does it eat?")
+    print("3. Does it have ivory?")
+    print("4. What region does it live in?")
+    print("5. What habitat does it live in?")
+    print("6. How many legs does it have?")
+    print("7. Can it fly?")
+    print("8. Does it have fur?")
+    print("9. Does it lay eggs?")
+    print("10. Does it have tusks?")
+    print("11. Does it have a horn?")
+    print("12. Is it aquatic?")
+    print("13. Does it have scales?")
+    print("14. Guessing an animal.")
+    print()
+    print("Which would you like to ask about? Please enter a number.")
+    choice = int(input())
+    while type(choice) == str() and choice > 14 or choice < 1:
+        print("Please enter a number 1 to 14")
+        choice = int(input())
+    if choice == 1:
+        attribute = "cLass"
+    elif choice == 2:
+        attribute = "diet"
+    elif choice == 3:
+        attribute = "ivory"
+    elif choice == 4:
+        attribute = "region"
+    elif choice == 5:
+        attribute = "habitat"
+    elif choice == 6:
+        attribute = "legs"
+    elif choice == 7:
+        attribute = "can_fly"
+    elif choice == 8:
+        attribute = "has_fur"
+    elif choice == 9:
+        attribute = "lays_eggs"
+    elif choice == 10:
+        attribute = "tusks"
+    elif choice == 11:
+        attribute = "has_horn"
+    elif choice == 12:
+        attribute = "is_aquatic"
+    elif choice == 13:
+        attribute = "has_scales"
+    elif choice == 14:
+        attribute = "name"
+
+    print("Please ask your question now. This should be a yes/no question, not open-ended, and the computer will only answer in yes or no.")
+    question = input().lower()
+    words = question.split()
+    print(words)
+    processed = False
+    negative = False
+    for word in words:
+       while word in ["what","why","how"]:
+         print("Please ensure your question is not open-ended.")
+         question = input().lower()
+         words = question.split()
+         print(words)
+       if word in ["not","unable","no","none","doesnt","isn't"] and attribute != "legs":
+           negative = True
+    for word in words:
+        if attribute in ["cLass","diet","legs","name"]:
+          if word == computerAnimal[attribute].lower():
+             print("Yes")
+             processed = True
+          if attribute == "diet":
+                if word in ["meat"] and word in ["plants"]:
+                     if computerAnimal[attribute].lower() == "omnivore":
+                       processed = True
+                elif word in ["meat"]:
+                     if computerAnimal[attribute].lower() == "carnivore":
+                       processed = True
+                elif word in ["plant"]:
+                    if computerAnimal[attribute].lower() == "herbivore":
+                       processed = True
+        elif word == computerAnimal[attribute]:
+            processed = True
+        if attribute == "can_fly":
+          if word in ["fly","flight","airborne"]:
+              if computerAnimal[attribute] == True:
+                processed = True
+        if attribute == "has_fur":
+          if word in ["fur","hair","furry","hairy","soft","fluffy"]:
+            if computerAnimal[attribute] == True:
+                processed = True
+        if attribute == "lays_eggs":
+           if word in ["egg","eggs","egg-laying"]:
+              if computerAnimal[attribute] == True:
+                processed = True
+        if attribute == "has_horn":
+          if word in ["horn","horned"]:
+            if computerAnimal[attribute] == True:
+                processed = True
+        if attribute == "has_scales":
+          if word in ["scale","scales","scaled","scaly"]:
+            if computerAnimal[attribute] == True:
+                processed = True
+        if attribute == "is_aquatic":
+          if word in ["water","ocean","sea","lake","aquatic","underwater"]:
+            if computerAnimal[attribute] == True:
+                processed = True
+        if attribute == "legs":
+            if computerAnimal[attribute] == "0":
+                if word in ["none","no","zero","legless","not"]:
+                    processed = True
+            if computerAnimal[attribute] == "2":
+                 if word in ["two","two-legged"]:
+                    processed = True
+            if computerAnimal[attribute] == "4":
+                 if word in ["four","four-legged",]:
+                    processed = True   
+            if computerAnimal[attribute] == "6":
+                 if word in ["six","six-legged"]:
+                    processed = True   
+            if computerAnimal[attribute] == "10":
+                 if word in ["ten","ten-legged",]:
+                    processed = True   
+    if attribute == "name":
+        if computerAnimal[attribute] == "White Rhino":
+         if "white" and "rhino" in words:
+            processed = True
+    if computerAnimal[attribute] == "Mountain Gorilla":
+        if "mountain" and "gorilla" in words:
+            processed = True
+    if computerAnimal[attribute] == "Coconut Crab":
+        if "coconut" and "crab" in words:
+            processed = True
+    if computerAnimal[attribute] == "Great White Shark":
+        if "great" and "white" in words:
+            processed = True
+    if computerAnimal[attribute] == "Giant Panda":
+        if "giant" and "panda" in words:
+            processed = True
+    if computerAnimal[attribute] == "Blue Whale":
+        if "blue" and "whale" in words:
+            processed = True
+    if computerAnimal[attribute] == "Komodo Dragon":
+        if "komodo" and "dragon" in words:
+            processed = True
+    if computerAnimal[attribute] == "Monarch Butterfly":
+        if "monarch" and "butterfly" in words:
+            processed = True
+    if computerAnimal[attribute] == "Goblin Shark":
+        if "goblin" and "shark" in words:
+            processed = True
+    if computerAnimal[attribute] == "Bengal Tiger":
+        if "bengal" and "tiger" in words:
+            processed = True
+    if computerAnimal[attribute] == "Darwin's Fox":
+        if "darwin's" and "fox" in words:
+            processed = True
+        elif "darwin's" and "fox" in words:
+            processed = True
+    if computerAnimal[attribute] == "lemon shark":
+        if "lemon" and "shark" in words:
+            processed = True
+    if computerAnimal[attribute] == "African Elephant":
+        if "african" and "elephant" in words:
+            processed = True
+    if computerAnimal[attribute] == "Tasmian Devil":
+        if "tasmanian" and "devil" in words:
+            processed = True
+    if computerAnimal[attribute] == "Aye-Aye":
+        if "aye" and "aye" in words:
+            processed = True
+    if computerAnimal[attribute] == "Hawksbill Sea Turtle":
+        if "sea" and "turtle" in words:
+            processed = True
+        elif "hawksbill" and "turtle" in words:
+            processed = True
+    if computerAnimal[attribute] == "Golden Poison Frog":
+        if "poison" and "frog" in words:
+            processed = True
+    if computerAnimal[attribute] == "Great Hammerhead Shark":
+        if "hammerhead" in words:
+            processed = True
+
+    if processed == False and negative == False:
+           print("no")
+    elif processed == True and negative == False:
+           print("Yes")
+           if attribute == "name":
+               lose(computerAnimal)
+    elif processed == False and negative == True:
+           print("Yes")
+           if attribute == "name":
+                lose(computerAnimal)
+    else:
+        print("no")
+
+def lose(computerAnimal):
+       print("Well done!! You win!!!")
+       print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}") 
+       print(f"Some stats about my animal:")
+       print(computerAnimal["cLass"])
+       print(computerAnimal["diet"])
+       print(computerAnimal["ivory"])
+       print(computerAnimal["region"])
+       print(computerAnimal["habitat"])
+       print(computerAnimal["iucn_status"])
+       print("And here are some funfacts:")
+       print(computerAnimal["fun_facts"])
+       print("And here's some more about it:")
+       print(computerAnimal["data_facts"])
+       return True
+    
+def gameplay(Bank):
+     question, attribute, value = askQ(Bank)
+     ans = processAnswer(question)
+     Bank = updateBank(Bank,attribute, value, ans)
+     PlayerQ()
+
+def win(computerAnimal,playerAnimal):
+   print("Yay!! I win!!!")
+   print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}") 
+   print(f"Some stats about my animal:")
+   print(computerAnimal["cLass"])
+   print(computerAnimal["diet"])
+   print(computerAnimal["ivory"])
+   print(computerAnimal["region"])
+   print(computerAnimal["habitat"])
+   print(computerAnimal["iucn_status"])
+   print("And here are some funfacts:")
+   print(computerAnimal["fun_facts"])
+   print("And here's some more about it:")
+   print(computerAnimal["data_facts"])
+   return True
+
+def guess(Bank, animals, notAnimal):
+  notAnimal = notAnimal
+  
+  possibleAnimal = []
+  info = {}
+  for attribute, value in Bank.items():
+        if value["Tracker"] == "Known":
+           for values, data in value.items():
+            if values!= "Tracker" and data == True: 
+             info[attribute] = values
+  for attribute,value in info.items():
+        for animal in animals:
+           if info[attribute] != animal[attribute]:
+               notAnimal.append(animal["name"])
+
+  for animal in animals: 
+    possible = True
+    for item in notAnimal:
+        if animal["name"] == item:
+             possible = False
+    if possible == True:
+        possibleAnimal.append(animal)
+  
+  guessValue = random.choice(possibleAnimal)
+  print(f"Is your animal {guessValue['name']}?")
+  ans = input().lower()
+  while ans != "yes" and ans != "no":
+      print("Please enter one of yes or no.")
+      ans = input().lower()
+  if ans == "yes":
+      win(computerAnimal,playerAnimal)
+  else:
+      notAnimal.append(guessValue["name"]) 
+  return notAnimal
+
+found = False
+loop = 0
+list = [] 
+
+while found != True: 
+   gameplay(Bank)
+   loop = loop + 1 
+   if loop >= 2 and loop <= 5:
+     nextMove = random.choice([1,2,3,4,5])
+     if nextMove == 1:
+       notAnimal = guess(Bank, animals,list)
+       list = notAnimal
+     else:
+       gameplay(Bank)
+   elif loop >= 6 and loop <= 10:
+         nextMove = random.choice([1,2,3,4,5])
+         if nextMove in [1,2]:
+           guess(Bank, animals,list)
+           list = notAnimal
+         else:
+           gameplay(Bank)
+   elif loop >= 11:
+          nextMove = random.choice([1,2])
+          if nextMove == 1:
+            guess(Bank,animals,list)
+            list = notAnimal
+          else:
+            gameplay(Bank)
+   
+    
+    
+     
+
+             
+
+       
+
+
+
+
+ 
+ 
+
+
+
+
+    
+    
