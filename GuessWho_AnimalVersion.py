@@ -11,7 +11,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["Africa"],
-        "habitat": ["savannah", "grassland", "shrubland", "woodland"],
+        "habitat": ["savannah", "grassland", "shrubland", "forest"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -39,7 +39,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["Asia"],
-        "habitat": ["temperate forest", "mountain forest", "bamboo forest"],
+        "habitat": ["forest", "mountain"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -67,7 +67,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Asia"],
-        "habitat": ["forest", "grassland", "savannah", "mangrove", "wetland"],
+       "habitat": ["forest", "grassland", "savannah", "coastal", "wetland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -95,7 +95,7 @@ animals = [
         "diet": "herbivore",
         "ivory": True,
         "region": ["Africa"],
-        "habitat": ["savannah", "grassland", "woodland", "forest", "wetland"],
+        "habitat": ["savannah", "grassland", "forest", "wetland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -123,7 +123,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["Africa"],
-        "habitat": ["mountain forest", "bamboo forest", "montane grassland"],
+        "habitat": ["forest", "mountain"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -151,7 +151,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
-        "habitat": ["open ocean", "coastal ocean"],
+        "habitat": ["ocean", "coastal"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -179,7 +179,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["North America"],
-        "habitat": ["shallow coastal ocean", "marine waters"],
+        "habitat": ["coastal", "ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -207,7 +207,7 @@ animals = [
         "diet": "omnivore",
         "ivory": False,
         "region": ["Africa"],
-        "habitat": ["tropical rainforest", "dry forest", "mangrove forest"],
+        "habitat": ["forest", "coastal"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -235,7 +235,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["Asia", "Oceania"],
-        "habitat": ["seagrass meadow", "shallow coastal ocean", "estuary"],
+        "habitat": ["coastal", "ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -263,7 +263,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["North America", "Central America", "South America", "Africa"],
-        "habitat": ["river", "wetland", "estuary", "shallow coastal ocean"],
+        "habitat": ["freshwater", "wetland", "coastal"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -291,7 +291,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia"],
-        "habitat": ["tropical forest", "savannah", "grassland", "woodland", "shrubland"],
+        "habitat": ["forest", "savannah", "grassland", "shrubland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -319,7 +319,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Oceania"],
-        "habitat": ["temperate forest", "woodland", "grassland", "coastal scrub"],
+        "habitat": ["forest", "grassland", "coastal"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -347,7 +347,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Oceania"],
-        "habitat": ["river", "stream", "freshwater wetland", "lakeshore"],
+        "habitat": ["freshwater", "wetland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": True,
@@ -375,7 +375,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["Central America", "South America"],
-        "habitat": ["tropical rainforest", "tropical dry forest", "woodland", "mangrove forest"],
+        "habitat": ["forest", "coastal"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -403,7 +403,7 @@ animals = [
         "diet": "omnivore",
         "ivory": False,
         "region": ["South America"],
-        "habitat": ["temperate rainforest", "woodland", "shrubland"],
+        "habitat": ["forest", "shrubland"],
         "can_fly": False,
         "has_fur": True,
         "lays_eggs": False,
@@ -434,7 +434,7 @@ animals = [
         "diet": "omnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
-        "habitat": ["coral reef", "shallow coastal ocean", "seagrass meadow", "mangrove"],
+        "habitat": ["ocean", "coastal", "coral reef"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -462,7 +462,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe"],
-        "habitat": ["tropical forest", "dry forest", "woodland", "savannah", "shrubland", "grassland"],
+        "habitat": ["forest", "savannah", "shrubland", "grassland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -490,7 +490,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Asia"],
-        "habitat": ["savannah", "woodland", "tropical forest", "coastal forest", "grassland"],
+        "habitat": ["savannah", "forest", "grassland", "coastal", "island"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -521,7 +521,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["North America"],
-        "habitat": ["freshwater lake", "wetland", "freshwater canal"],
+        "habitat": ["freshwater", "wetland"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -549,7 +549,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["South America"],
-        "habitat": ["tropical rainforest", "rainforest stream", "humid forest"],
+        "habitat": ["forest", "freshwater"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -580,7 +580,7 @@ animals = [
         "diet": "omnivore",
         "ivory": False,
         "region": ["Asia", "Oceania"],
-        "habitat": ["tropical forest", "coastal forest", "beach", "island woodland"],
+        "habitat": ["island", "forest", "coastal"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -608,7 +608,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["North America", "Central America", "South America"],
-        "habitat": ["grassland", "meadow", "woodland", "forest", "shrubland", "wetland"],
+        "habitat": ["grassland", "forest", "shrubland", "wetland"],
         "can_fly": True,
         "has_fur": False,
         "lays_eggs": True,
@@ -639,7 +639,7 @@ animals = [
         "diet": "herbivore",
         "ivory": False,
         "region": ["Oceania"],
-        "habitat": ["temperate forest", "shrubland", "grassland", "coastal forest"],
+        "habitat": ["forest", "shrubland", "grassland", "coastal", "island"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": True,
@@ -670,7 +670,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
-        "habitat": ["coastal ocean", "coral reef", "continental shelf", "open ocean"],
+        "habitat": ["coastal", "coral reef", "ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -699,7 +699,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
-        "habitat": ["coastal ocean", "open ocean", "continental shelf"],
+        "habitat": ["coastal", "ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -728,7 +728,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
-        "habitat": ["deep ocean", "continental slope", "deep-sea floor"],
+        "habitat": ["ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -757,7 +757,7 @@ animals = [
         "diet": "carnivore",
         "ivory": False,
         "region": ["Africa", "Asia", "Europe", "North America", "Central America", "South America", "Oceania"],
-        "habitat": ["coastal ocean", "coral reef", "mangrove", "seagrass meadow", "estuary"],
+        "habitat": ["coastal", "coral reef", "ocean"],
         "can_fly": False,
         "has_fur": False,
         "lays_eggs": False,
@@ -870,14 +870,19 @@ Questions = {
                 "Does it live in Oceania?"
             ]
     },
-
+    
     "habitat" : {
-        "savannah": [
-                "Does your animal live in savannah?"
+        "forest": [
+                "Does your animal live in forests?",
+                "Is your animal found in forests?"
             ],
         "grassland": [
                 "Does your animal live in grasslands?",
                 "Is your animal found in grassy open habitats?"
+            ],
+        "savannah": [
+                "Does your animal live in savannah?",
+                "Is your animal found in savannah?"
             ],
         "shrubland": [
                 "Does your animal live in shrubland?",
@@ -887,139 +892,32 @@ Questions = {
                 "Does your animal live in wetlands?",
                 "Is your animal associated with wetland habitats?"
             ],
-        "temperate forest": [
-                "Does your animal live in temperate forests?",
-                "Is your animal found in forests with a temperate climate?"
+        "freshwater": [
+                "Does your animal live in freshwater?",
+                "Is your animal found in freshwater habitats?"
             ],
-        "mountain forest": [
-                "Does your animal live in mountain forests?",
-                "Is your animal found in forests at high elevations?"
+        "ocean": [
+                "Does your animal live in the ocean?",
+                "Is your animal found in ocean waters?"
             ],
-        "bamboo forest": [
-                "Does your animal live in bamboo forests?"
-            ],
-        "tropical forest": [
-                "Does your animal live in tropical forests?",
-                "Is your animal found in warm tropical forests?"
-            ],
-        "tropical rainforest": [
-                "Does your animal live in tropical rainforests?",
-                "Is your animal found in rainforest?"
-            ],
-        "tropical dry forest": [
-                "Does your animal live in tropical dry forests?"
-            ],
-        "dry forest": [
-                "Does your animal live in dry forests?"
-            ],
-        "woodland": [
-                "Does your animal live in woodland?",
-                "Is your animal found where trees are more widely spaced than in a dense forest?"
-            ],
-        "forest": [
-                "Does your animal live in forests?"
-            ],
-        "mangrove": [
-                "Does your animal live in mangrove habitats?",
-                "Is your animal associated with mangrove forests?"
-            ],
-        "mangrove forest": [
-                "Does your animal live in mangrove forests?"
-            ],
-        "open ocean": [
-                "Does your animal live in the open ocean?",
-                "Can your animal be found far offshore?"
-            ],
-        "coastal ocean": [
-                "Does your animal live in coastal ocean waters?",
-                "Is your animal found close to the coast?"
-            ],
-        "shallow coastal ocean": [
-                "Does your animal live in shallow coastal ocean?"
-            ],
-        "marine waters": [
-                "Does your animal live in marine waters?"
-            ],
-        "seagrass meadow": [
-                "Does your animal live in seagrass meadows?",
-                "Is your animal associated with underwater seagrass beds?"
+        "coastal": [
+                "Does your animal live near the coast?",
+                "Is your animal found in coastal habitats?"
             ],
         "coral reef": [
                 "Does your animal live around coral reefs?",
                 "Is your animal associated with coral reef ecosystems?"
             ],
-        "river": [
-                "Does your animal live in rivers?",
-                "Is your animal found in flowing freshwater?"
-            ],
-        "stream": [
-                "Does your animal live in streams?"
-            ],
-        "freshwater stream": [
-                "Does your animal live in freshwater streams?",
-                "Is your animal found in small flowing freshwater habitats?"
-            ],
-        "rainforest stream": [
-                "Does your animal live near rainforest streams?"
-            ],
-        "freshwater wetland": [
-                "Does your animal live in freshwater wetlands?",
-                "Is your animal associated with freshwater wetlands?"
-            ],
-        "freshwater lake": [
-                "Does your animal live in freshwater lakes?"
-            ],
-        "freshwater canal": [
-                "Does your animal live in freshwater canals?"
-            ],
-        "lakeshore": [
-                "Does your animal live around lakeshores?"
-            ],
-        "estuary": [
-                "Does your animal live in estuaries?"
-            ],
-        "deep ocean": [
-                "Does your animal live in the deep ocean?",
-                "Is your animal found hundreds of metres below the surface?"
-            ],
-        "continental shelf": [
-                "Does your animal live around continental shelves?"
-            ],
-        "continental slope": [
-                "Does your animal live around continental slopes?"
-            ],
-        "deep-sea floor": [
-                "Does your animal live on the deep-sea floor?"
-            ],
         "island": [
                 "Does your animal live on islands?",
-                "Is your animal naturally restricted to island habitats?"
+                "Is your animal found on islands?"
             ],
-        "island woodland": [
-                "Does your animal live in island woodland?"
-            ],
-        "coastal forest": [
-                "Does your animal live in coastal forests?",
-                "Is your animal found in forests near the sea?"
-            ],
-        "coastal scrub": [
-                "Does your animal live in coastal scrub?"
-            ],
-        "beach": [
-                "Does your animal live around beaches?"
-            ],
-        "meadow": [
-                "Does your animal live in meadows?",
-                "Is your animal found in open areas with grasses and flowering plants?"
-            ],
-        "humid forest": [
-                "Does your animal live in humid forests?"
-            ],
-        "montane grassland": [
-                "Does your animal live in montane grasslands?"
+        "mountain": [
+                "Does your animal live in mountains?",
+                "Is your animal found in mountainous areas?"
             ]
-    },
-
+    }, 
+    
    "can_fly" : {
         "Tracker": [
             "Can it fly?",
@@ -1159,29 +1057,18 @@ Bank = {
        "Oceania": "unknown"},
 
      "habitat" : {
-       "Tracker":"unknown",
-       "grassland": "unknown",
-       "savannah": "unknown",
-       "shrubland": "unknown",
-       "wetland": "unknown",
-       "temperate forest": "unknown",
-       "mountain forest": "unknown",
-       "tropical forest": "unknown",
-       "tropical rainforest": "unknown",
-       "woodland": "unknown",
-       "mangrove": "unknown",
-       "open ocean": "unknown",
-       "coastal ocean": "unknown",
-       "seagrass meadow": "unknown",
-       "coral reef": "unknown",
-       "river": "unknown",
-       "freshwater wetland": "unknown",
-       "lake": "unknown",
-       "freshwater stream": "unknown",
-       "deep ocean": "unknown",
-       "island": "unknown",
-       "coastal forest": "unknown",
-       "meadow": "unknown"},
+    "Tracker":"unknown",
+    "forest": "unknown",
+    "grassland": "unknown",
+    "savannah": "unknown",
+    "shrubland": "unknown",
+    "wetland": "unknown",
+    "freshwater": "unknown",
+    "ocean": "unknown",
+    "coastal": "unknown",
+    "coral reef": "unknown",
+    "island": "unknown",
+    "mountain": "unknown"},
 
      "can_fly" : {"Tracker":"unknown"},
 
@@ -1218,9 +1105,15 @@ def askQ(Bank):
         else:
             if values["Tracker"] == "unknown":
                 options.append((attribute, "Tracker"))
+
+     # If every question has been answered, there is nothing left to ask.
+     if not options:
+         return None, None, None
+
      attribute, value = random.choice(options)
      question = random.choice(Questions[attribute][value])
      return question, attribute, value
+
 
 def processAnswer(question):
 
@@ -1231,7 +1124,7 @@ def processAnswer(question):
         print("Please enter one of the following: 'yes', 'no', 'depends' or 'idk'/'I don't know'")
         answer = input().lower()
 
-    if answer in ["yes","depends"]:
+    if answer in ["yes", "depends"]:
         return True
 
     elif answer == "no":
@@ -1240,12 +1133,43 @@ def processAnswer(question):
     else:
         return "unknown"
 
-def updateBank(Bank,attribute, value, ans):
+
+def updateBank(Bank, attribute, value, ans):
+    # Boolean attributes only have a Tracker, so the answer goes there.
+    if value == "Tracker":
+        Bank[attribute]["Tracker"] = ans
+        return Bank
+
     Bank[attribute][value] = ans
-    if Bank[attribute] in ["cLass","diet","legs"]:
+
+    if attribute in ["cLass", "diet", "legs"]:
         if ans == True:
-          Bank[attribute]["Tracker"] = "Known"
+            for otherValue in Bank[attribute]:
+                if otherValue != "Tracker" and otherValue != value:
+                    Bank[attribute][otherValue] = False
+            Bank[attribute]["Tracker"] = "Known"
+        elif ans == False:
+            unknownValues = []
+            for otherValue, status in Bank[attribute].items():
+                if otherValue != "Tracker" and status == "unknown":
+                    unknownValues.append(otherValue)
+
+            if len(unknownValues) == 1:
+                Bank[attribute][unknownValues[0]] = True
+                Bank[attribute]["Tracker"] = "Known"
+
+    # Region and habitat can have more than one TRUE value, so they only
+    # become known once every possible value has been answered.
+    elif attribute in ["region", "habitat"]:
+        unknownValues = []
+        for otherValue, status in Bank[attribute].items():
+            if otherValue != "Tracker" and status == "unknown":
+                unknownValues.append(otherValue)
+        if len(unknownValues) == 0:
+            Bank[attribute]["Tracker"] = "Known"
+
     return Bank
+
 
 def PlayerQ():
 
@@ -1266,10 +1190,14 @@ def PlayerQ():
     print("14. Guessing an animal.")
     print()
     print("Which would you like to ask about? Please enter a number.")
-    choice = int(input())
-    while type(choice) == str() and choice > 14 or choice < 1:
+
+    # input() gives a string, so validate the string BEFORE converting it.
+    choice = input()
+    while not choice.isdigit() or int(choice) < 1 or int(choice) > 14:
         print("Please enter a number 1 to 14")
-        choice = int(input())
+        choice = input()
+    choice = int(choice)
+
     if choice == 1:
         attribute = "cLass"
     elif choice == 2:
@@ -1301,133 +1229,83 @@ def PlayerQ():
 
     print("Please ask your question now. This should be a yes/no question, not open-ended, and the computer will only answer in yes or no.")
     question = input().lower()
+
+    # Keep asking if the player accidentally asks an open-ended question.
+    while any(word in question.split() for word in ["what", "why", "how"]):
+        print("Please ensure your question is not open-ended.")
+        question = input().lower()
+
     words = question.split()
-    print(words)
     processed = False
     negative = False
+
     for word in words:
-       while word in ["what","why","how"]:
-         print("Please ensure your question is not open-ended.")
-         question = input().lower()
-         words = question.split()
-         print(words)
-       if word in ["not","unable","no","none","doesnt","isn't"] and attribute != "legs":
-           negative = True
-    for word in words:
-        if attribute in ["cLass","diet","legs","name"]:
-          if word == computerAnimal[attribute].lower():
-             print("Yes")
-             processed = True
-          if attribute == "diet":
-                if word in ["meat"] and word in ["plants"]:
-                     if computerAnimal[attribute].lower() == "omnivore":
-                       processed = True
-                elif word in ["meat"]:
-                     if computerAnimal[attribute].lower() == "carnivore":
-                       processed = True
-                elif word in ["plant"]:
-                    if computerAnimal[attribute].lower() == "herbivore":
-                       processed = True
-        elif word == computerAnimal[attribute]:
-            processed = True
-        if attribute == "can_fly":
-          if word in ["fly","flight","airborne"]:
-              if computerAnimal[attribute] == True:
-                processed = True
-        if attribute == "has_fur":
-          if word in ["fur","hair","furry","hairy","soft","fluffy"]:
-            if computerAnimal[attribute] == True:
-                processed = True
-        if attribute == "lays_eggs":
-           if word in ["egg","eggs","egg-laying"]:
-              if computerAnimal[attribute] == True:
-                processed = True
-        if attribute == "has_horn":
-          if word in ["horn","horned"]:
-            if computerAnimal[attribute] == True:
-                processed = True
-        if attribute == "has_scales":
-          if word in ["scale","scales","scaled","scaly"]:
-            if computerAnimal[attribute] == True:
-                processed = True
-        if attribute == "is_aquatic":
-          if word in ["water","ocean","sea","lake","aquatic","underwater"]:
-            if computerAnimal[attribute] == True:
-                processed = True
-        if attribute == "legs":
-            if computerAnimal[attribute] == "0":
-                if word in ["none","no","zero","legless","not"]:
-                    processed = True
-            if computerAnimal[attribute] == "2":
-                 if word in ["two","two-legged"]:
-                    processed = True
-            if computerAnimal[attribute] == "4":
-                 if word in ["four","four-legged",]:
-                    processed = True   
-            if computerAnimal[attribute] == "6":
-                 if word in ["six","six-legged"]:
-                    processed = True   
-            if computerAnimal[attribute] == "10":
-                 if word in ["ten","ten-legged",]:
-                    processed = True   
+        if word in ["not", "unable", "no", "none", "doesnt", "isn't", "don't", "dont"] and attribute != "legs":
+            negative = True
+
+    # Names are phrases, not individual words. This fixes names such as
+    # "Mountain Gorilla", "Great White Shark", etc.
     if attribute == "name":
-        if computerAnimal[attribute] == "White Rhino":
-         if "white" and "rhino" in words:
+        animalName = computerAnimal["name"].lower()
+        if animalName in question:
             processed = True
-    if computerAnimal[attribute] == "Mountain Gorilla":
-        if "mountain" and "gorilla" in words:
+
+    # These attributes have one string value.
+    elif attribute == "cLass":
+        if computerAnimal["cLass"].lower() in question:
             processed = True
-    if computerAnimal[attribute] == "Coconut Crab":
-        if "coconut" and "crab" in words:
+
+    elif attribute == "diet":
+        diet = computerAnimal["diet"].lower()
+        if diet in question:
             processed = True
-    if computerAnimal[attribute] == "Great White Shark":
-        if "great" and "white" in words:
+        elif diet == "omnivore" and "meat" in question and "plant" in question:
             processed = True
-    if computerAnimal[attribute] == "Giant Panda":
-        if "giant" and "panda" in words:
+        elif diet == "carnivore" and "meat" in question:
             processed = True
-    if computerAnimal[attribute] == "Blue Whale":
-        if "blue" and "whale" in words:
+        elif diet == "herbivore" and "plant" in question:
             processed = True
-    if computerAnimal[attribute] == "Komodo Dragon":
-        if "komodo" and "dragon" in words:
-            processed = True
-    if computerAnimal[attribute] == "Monarch Butterfly":
-        if "monarch" and "butterfly" in words:
-            processed = True
-    if computerAnimal[attribute] == "Goblin Shark":
-        if "goblin" and "shark" in words:
-            processed = True
-    if computerAnimal[attribute] == "Bengal Tiger":
-        if "bengal" and "tiger" in words:
-            processed = True
-    if computerAnimal[attribute] == "Darwin's Fox":
-        if "darwin's" and "fox" in words:
-            processed = True
-        elif "darwin's" and "fox" in words:
-            processed = True
-    if computerAnimal[attribute] == "lemon shark":
-        if "lemon" and "shark" in words:
-            processed = True
-    if computerAnimal[attribute] == "African Elephant":
-        if "african" and "elephant" in words:
-            processed = True
-    if computerAnimal[attribute] == "Tasmian Devil":
-        if "tasmanian" and "devil" in words:
-            processed = True
-    if computerAnimal[attribute] == "Aye-Aye":
-        if "aye" and "aye" in words:
-            processed = True
-    if computerAnimal[attribute] == "Hawksbill Sea Turtle":
-        if "sea" and "turtle" in words:
-            processed = True
-        elif "hawksbill" and "turtle" in words:
-            processed = True
-    if computerAnimal[attribute] == "Golden Poison Frog":
-        if "poison" and "frog" in words:
-            processed = True
-    if computerAnimal[attribute] == "Great Hammerhead Shark":
-        if "hammerhead" in words:
+
+    # Region and habitat values are also phrases, so check the whole phrase
+    # rather than checking one word at a time.
+    elif attribute == "region":
+        for region in computerAnimal["region"]:
+            if region.lower() in question:
+                processed = True
+
+    elif attribute == "habitat":
+        for habitat in computerAnimal["habitat"]:
+            if habitat.lower() in question:
+                processed = True
+
+    # Boolean attributes.
+    elif attribute in ["ivory", "tusks", "can_fly", "has_fur", "lays_eggs", "has_horn", "is_aquatic", "has_scales"]:
+        keywords = {
+            "ivory": ["ivory"],
+            "tusks": ["tusk", "tusks"],
+            "can_fly": ["fly", "flight", "airborne"],
+            "has_fur": ["fur", "hair", "furry", "hairy", "soft", "fluffy"],
+            "lays_eggs": ["egg", "eggs", "egg-laying"],
+            "has_horn": ["horn", "horned"],
+            "is_aquatic": ["water", "ocean", "sea", "lake", "aquatic", "underwater"],
+            "has_scales": ["scale", "scales", "scaled", "scaly"]
+        }
+        if any(keyword in words for keyword in keywords[attribute]):
+            if computerAnimal[attribute] == True:
+                processed = True
+
+    # Legs are stored as strings in both the animal data and Bank, so there
+    # is no integer/string mismatch here.
+    elif attribute == "legs":
+        legWords = {
+            "0": ["0", "none", "no", "zero", "legless"],
+            "2": ["2", "two", "two-legged"],
+            "4": ["4", "four", "four-legged"],
+            "6": ["6", "six", "six-legged"],
+            "10": ["10", "ten", "ten-legged"]
+        }
+        actualLegs = computerAnimal["legs"]
+        if any(word in words for word in legWords[actualLegs]):
             processed = True
 
     if processed == False and negative == False:
@@ -1435,17 +1313,20 @@ def PlayerQ():
     elif processed == True and negative == False:
            print("Yes")
            if attribute == "name":
-               lose(computerAnimal)
+               return lose(computerAnimal)
     elif processed == False and negative == True:
            print("Yes")
            if attribute == "name":
-                lose(computerAnimal)
+                return lose(computerAnimal)
     else:
         print("no")
 
+    return False
+
+
 def lose(computerAnimal):
        print("Well done!! You win!!!")
-       print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}") 
+       print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}")
        print(f"Some stats about my animal:")
        print(computerAnimal["cLass"])
        print(computerAnimal["diet"])
@@ -1458,16 +1339,23 @@ def lose(computerAnimal):
        print("And here's some more about it:")
        print(computerAnimal["data_facts"])
        return True
-    
+
+
 def gameplay(Bank):
      question, attribute, value = askQ(Bank)
-     ans = processAnswer(question)
-     Bank = updateBank(Bank,attribute, value, ans)
-     PlayerQ()
 
-def win(computerAnimal,playerAnimal):
+     # All of the computer's information is already known.
+     if question is None:
+         return PlayerQ()
+
+     ans = processAnswer(question)
+     Bank = updateBank(Bank, attribute, value, ans)
+     return PlayerQ()
+
+
+def win(computerAnimal, playerAnimal):
    print("Yay!! I win!!!")
-   print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}") 
+   print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}")
    print(f"Some stats about my animal:")
    print(computerAnimal["cLass"])
    print(computerAnimal["diet"])
@@ -1481,86 +1369,88 @@ def win(computerAnimal,playerAnimal):
    print(computerAnimal["data_facts"])
    return True
 
+
 def guess(Bank, animals, notAnimal):
-  notAnimal = notAnimal
-  
   possibleAnimal = []
   info = {}
-  for attribute, value in Bank.items():
-        if value["Tracker"] == "Known":
-           for values, data in value.items():
-            if values!= "Tracker" and data == True: 
-             info[attribute] = values
-  for attribute,value in info.items():
-        for animal in animals:
-           if info[attribute] != animal[attribute]:
-               notAnimal.append(animal["name"])
 
-  for animal in animals: 
-    possible = True
-    for item in notAnimal:
-        if animal["name"] == item:
-             possible = False
-    if possible == True:
-        possibleAnimal.append(animal)
-  
+  # Collect facts which the Bank has established.
+  for attribute, value in Bank.items():
+        if attribute in ["cLass", "diet", "legs", "region", "habitat"]:
+            for values, data in value.items():
+                if values != "Tracker" and data == True:
+                    if attribute in ["cLass", "diet", "legs"]:
+                        info[attribute] = values
+                    else:
+                        if attribute not in info:
+                            info[attribute] = []
+                        info[attribute].append(values)
+        elif value["Tracker"] == True:
+            info[attribute] = True
+        elif value["Tracker"] == False:
+            info[attribute] = False
+
+  # Eliminate animals which contradict known information.
+  for animal in animals:
+      possible = True
+
+      for attribute, knownValue in info.items():
+          if attribute in ["region", "habitat"]:
+              for item in knownValue:
+                  if item not in animal[attribute]:
+                      possible = False
+          else:
+              if animal[attribute] != knownValue:
+                  possible = False
+
+      if animal["name"] in notAnimal:
+          possible = False
+
+      if possible:
+          possibleAnimal.append(animal)
+
+  # If the Bank has ruled everything out, fall back to animals not already guessed.
+  if not possibleAnimal:
+      for animal in animals:
+          if animal["name"] not in notAnimal:
+              possibleAnimal.append(animal)
+
   guessValue = random.choice(possibleAnimal)
   print(f"Is your animal {guessValue['name']}?")
   ans = input().lower()
   while ans != "yes" and ans != "no":
       print("Please enter one of yes or no.")
       ans = input().lower()
+
   if ans == "yes":
-      win(computerAnimal,playerAnimal)
+      return notAnimal, win(computerAnimal, playerAnimal)
   else:
-      notAnimal.append(guessValue["name"]) 
-  return notAnimal
+      notAnimal.append(guessValue["name"])
+      return notAnimal, False
+
 
 found = False
 loop = 0
-list = [] 
+notAnimal = []
 
-while found != True: 
-   gameplay(Bank)
-   loop = loop + 1 
+while found != True:
+   found = gameplay(Bank) 
+
+   if found:
+       break
+
+   loop = loop + 1
+
    if loop >= 2 and loop <= 5:
      nextMove = random.choice([1,2,3,4,5])
      if nextMove == 1:
-       notAnimal = guess(Bank, animals,list)
-       list = notAnimal
+       notAnimal, found = guess(Bank, animals, notAnimal)
      else:
-       gameplay(Bank)
-   elif loop >= 6 and loop <= 10:
-         nextMove = random.choice([1,2,3,4,5])
-         if nextMove in [1,2]:
-           guess(Bank, animals,list)
-           list = notAnimal
-         else:
-           gameplay(Bank)
-   elif loop >= 11:
+       found = gameplay(Bank)
+
+   else:
           nextMove = random.choice([1,2])
           if nextMove == 1:
-            guess(Bank,animals,list)
-            list = notAnimal
+            notAnimal, found = guess(Bank, animals, notAnimal)
           else:
-            gameplay(Bank)
-   
-    
-    
-     
-
-             
-
-       
-
-
-
-
- 
- 
-
-
-
-
-    
-    
+            found = gameplay(Bank)
