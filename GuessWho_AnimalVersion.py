@@ -979,7 +979,6 @@ Questions = {
 
 
 computerAnimal = random.choice(animals)
-print(computerAnimal["name"])
 
 playerAnimal = random.choice(animals)
 
@@ -1010,9 +1009,11 @@ print(
 print("You both have one of these animals:")
 print()
 
-count = 0
 
-for animal in animals:
+def animalDisplay():
+ count = 0
+
+ for animal in animals:
     print(f"{animal['emoji']} {animal['name']:<20}",end="     ")
     count = count + 1
     if count == 4:
@@ -1020,6 +1021,7 @@ for animal in animals:
      )
      count = 0
 
+animalDisplay()
 print()
 print()
 print("Let's start! The computer will ask you a question, "
@@ -1094,17 +1096,23 @@ Bank = {
 
  }
 
+askedQuestions = []
+
 def askQ(Bank):
      options = []
+
      for attribute, values in Bank.items():
         if attribute in ["cLass", "diet", "legs", "habitat", "region"]:
             if values["Tracker"] == "unknown":
                 for value, status in values.items():
                     if value != "Tracker" and status == "unknown":
-                        options.append((attribute, value))
+                        if (attribute, value) not in askedQuestions:
+                           options.append((attribute, value))
         else:
             if values["Tracker"] == "unknown":
-                options.append((attribute, "Tracker"))
+                if (attribute, "Tracker") not in askedQuestions:
+                   options.append((attribute, "Tracker"))
+
 
      # If every question has been answered, there is nothing left to ask.
      if not options:
@@ -1112,6 +1120,8 @@ def askQ(Bank):
 
      attribute, value = random.choice(options)
      question = random.choice(Questions[attribute][value])
+
+     askedQuestions.append((attribute, value))
      return question, attribute, value
 
 
@@ -1126,6 +1136,8 @@ def processAnswer(question):
 
     if answer in ["yes", "depends"]:
         return True
+         
+    
 
     elif answer == "no":
         return False
@@ -1133,40 +1145,44 @@ def processAnswer(question):
     else:
         return "unknown"
 
-
-def updateBank(Bank, attribute, value, ans):
-    # Boolean attributes only have a Tracker, so the answer goes there.
+notAnimal = []
+  
+def updateBank(Bank, attribute, value, ans, animals):
     if value == "Tracker":
         Bank[attribute]["Tracker"] = ans
-        return Bank
+    else:
+        Bank[attribute][value] = ans
 
-    Bank[attribute][value] = ans
+        # Class, diet and legs each have one correct value.
+        if attribute in ["cLass", "diet", "legs"]:
+            if ans == True:
+                for otherValue in Bank[attribute]:
+                    if otherValue not in ["Tracker", value]:
+                        Bank[attribute][otherValue] = False
 
-    if attribute in ["cLass", "diet", "legs"]:
-        if ans == True:
-            for otherValue in Bank[attribute]:
-                if otherValue != "Tracker" and otherValue != value:
-                    Bank[attribute][otherValue] = False
-            Bank[attribute]["Tracker"] = "Known"
-        elif ans == False:
-            unknownValues = []
-            for otherValue, status in Bank[attribute].items():
-                if otherValue != "Tracker" and status == "unknown":
-                    unknownValues.append(otherValue)
-
-            if len(unknownValues) == 1:
-                Bank[attribute][unknownValues[0]] = True
                 Bank[attribute]["Tracker"] = "Known"
 
-    # Region and habitat can have more than one TRUE value, so they only
-    # become known once every possible value has been answered.
-    elif attribute in ["region", "habitat"]:
-        unknownValues = []
-        for otherValue, status in Bank[attribute].items():
-            if otherValue != "Tracker" and status == "unknown":
-                unknownValues.append(otherValue)
-        if len(unknownValues) == 0:
-            Bank[attribute]["Tracker"] = "Known"
+            elif ans == False:
+                unknownValues = [
+                    otherValue
+                    for otherValue, status in Bank[attribute].items()
+                    if otherValue != "Tracker" and status == "unknown"
+                ]
+
+                if len(unknownValues) == 1:
+                    Bank[attribute][unknownValues[0]] = True
+                    Bank[attribute]["Tracker"] = "Known"
+
+        # Regions and habitats can have multiple correct values.
+        elif attribute in ["region", "habitat"]:
+            unknownValues = [
+                otherValue
+                for otherValue, status in Bank[attribute].items()
+                if otherValue != "Tracker" and status == "unknown"
+            ]
+
+            if not unknownValues:
+                Bank[attribute]["Tracker"] = "Known"
 
     return Bank
 
@@ -1226,7 +1242,14 @@ def PlayerQ():
         attribute = "has_scales"
     elif choice == 14:
         attribute = "name"
-
+        print("Would you like to see the list of animals again to guess from?")
+        ans = input().lower()
+        while ans not in ["yes","no"]:
+            print("Please write either yes or no")
+            ans = input().lower()
+        if ans == "yes":
+            animalDisplay()
+    print()
     print("Please ask your question now. This should be a yes/no question, not open-ended, and the computer will only answer in yes or no.")
     question = input().lower()
 
@@ -1241,6 +1264,7 @@ def PlayerQ():
 
     for word in words:
         if word in ["not", "unable", "no", "none", "doesnt", "isn't", "don't", "dont"] and attribute != "legs":
+          if attribute != "name":  
             negative = True
 
     # Names are phrases, not individual words. This fixes names such as
@@ -1327,17 +1351,22 @@ def PlayerQ():
 def lose(computerAnimal):
        print("Well done!! You win!!!")
        print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}")
+       print()
        print(f"Some stats about my animal:")
-       print(computerAnimal["cLass"])
-       print(computerAnimal["diet"])
-       print(computerAnimal["ivory"])
-       print(computerAnimal["region"])
-       print(computerAnimal["habitat"])
-       print(computerAnimal["iucn_status"])
+       print()
+       print(f"Class: {computerAnimal['cLass']}")
+       print(f"Diet: {computerAnimal['diet']}")
+       print(f"Regions it is found in: {computerAnimal['region']}")
+       print(f"Habitat types: {computerAnimal['habitat']}")
+       print(f"IUCN Status: {computerAnimal['iucn_status']}")
+       print()
        print("And here are some funfacts:")
-       print(computerAnimal["fun_facts"])
+       print()
+       print(computerAnimal['fun_facts'])
+       print()
        print("And here's some more about it:")
-       print(computerAnimal["data_facts"])
+       print()
+       print(computerAnimal['data_facts'])
        return True
 
 
@@ -1349,108 +1378,131 @@ def gameplay(Bank):
          return PlayerQ()
 
      ans = processAnswer(question)
-     Bank = updateBank(Bank, attribute, value, ans)
+     Bank = updateBank(Bank, attribute, value, ans, animals)
      return PlayerQ()
 
 
 def win(computerAnimal, playerAnimal):
    print("Yay!! I win!!!")
    print(f"My animal was {computerAnimal['name']} {computerAnimal['emoji']}")
+   print()
    print(f"Some stats about my animal:")
-   print(computerAnimal["cLass"])
-   print(computerAnimal["diet"])
-   print(computerAnimal["ivory"])
-   print(computerAnimal["region"])
-   print(computerAnimal["habitat"])
-   print(computerAnimal["iucn_status"])
+   print()
+   print(f"Class: {computerAnimal['cLass']}")
+   print(f"Diet: {computerAnimal['diet']}")
+   print(f"Regions it is found in: {computerAnimal['region']}")
+   print(f"Habitat types: {computerAnimal['habitat']}")
+   print(f"IUCN Status: {computerAnimal['iucn_status']}")
+   print()
    print("And here are some funfacts:")
-   print(computerAnimal["fun_facts"])
+   print()
+   print(computerAnimal['fun_facts'])
+   print()
    print("And here's some more about it:")
-   print(computerAnimal["data_facts"])
+   print()
+   print(computerAnimal['data_facts'])
    return True
 
 
+
 def guess(Bank, animals, notAnimal):
-  possibleAnimal = []
-  info = {}
+    possibleAnimal = []
 
-  # Collect facts which the Bank has established.
-  for attribute, value in Bank.items():
-        if attribute in ["cLass", "diet", "legs", "region", "habitat"]:
-            for values, data in value.items():
-                if values != "Tracker" and data == True:
-                    if attribute in ["cLass", "diet", "legs"]:
-                        info[attribute] = values
-                    else:
-                        if attribute not in info:
-                            info[attribute] = []
-                        info[attribute].append(values)
-        elif value["Tracker"] == True:
-            info[attribute] = True
-        elif value["Tracker"] == False:
-            info[attribute] = False
+    for animal in animals:
+        # Skip animals the computer has already guessed incorrectly.
+        if animal["name"] in notAnimal:
+            continue
 
-  # Eliminate animals which contradict known information.
-  for animal in animals:
-      possible = True
+        possible = True
 
-      for attribute, knownValue in info.items():
-          if attribute in ["region", "habitat"]:
-              for item in knownValue:
-                  if item not in animal[attribute]:
-                      possible = False
-          else:
-              if animal[attribute] != knownValue:
-                  possible = False
+        for attribute, values in Bank.items():
 
-      if animal["name"] in notAnimal:
-          possible = False
+            if attribute in ["cLass", "diet", "legs"]:
+                # These attributes have exactly one correct value.
+                for value, status in values.items():
+                    if value == "Tracker" or status == "unknown":
+                        continue
 
-      if possible:
-          possibleAnimal.append(animal)
+                    if status == True and animal[attribute] != value:
+                        possible = False
+                        break
 
-  # If the Bank has ruled everything out, fall back to animals not already guessed.
-  if not possibleAnimal:
-      for animal in animals:
-          if animal["name"] not in notAnimal:
-              possibleAnimal.append(animal)
+                    if status == False and animal[attribute] == value:
+                        possible = False
+                        break
 
-  guessValue = random.choice(possibleAnimal)
-  print(f"Is your animal {guessValue['name']}?")
-  ans = input().lower()
-  while ans != "yes" and ans != "no":
-      print("Please enter one of yes or no.")
-      ans = input().lower()
+            elif attribute in ["region", "habitat"]:
+                # An animal can have several regions and habitats.
+                for value, status in values.items():
+                    if value == "Tracker" or status == "unknown":
+                        continue
 
-  if ans == "yes":
-      return notAnimal, win(computerAnimal, playerAnimal)
-  else:
-      notAnimal.append(guessValue["name"])
-      return notAnimal, False
+                    if status == True and value not in animal[attribute]:
+                        possible = False
+                        break
 
+                    if status == False and value in animal[attribute]:
+                        possible = False
+                        break
+
+            else:
+                # Boolean attributes store their answers in Tracker.
+                known = values["Tracker"]
+
+                if known in [True, False]:
+                    if animal[attribute] != known:
+                        possible = False
+
+            if not possible:
+                break
+
+        if possible:
+            possibleAnimal.append(animal)
+
+    if not possibleAnimal:
+        print("I can't make a consistent guess from the answers so far.")
+        print("I may need another question to narrow it down.")
+        return notAnimal, False
+
+    guessValue = random.choice(possibleAnimal)
+
+    print(f"Is your animal {guessValue['name']}?")
+    ans = input().lower()
+
+    while ans not in ["yes", "no"]:
+        print("Please enter either yes or no.")
+        ans = input().lower()
+
+    if ans == "yes":
+        return notAnimal, win(guessValue, playerAnimal)
+
+    notAnimal.append(guessValue["name"])
+    return notAnimal, False
 
 found = False
 loop = 0
 notAnimal = []
 
 while found != True:
-   found = gameplay(Bank) 
+    found = gameplay(Bank)
 
-   if found:
-       break
+    if found:
+        break
 
-   loop = loop + 1
+    loop = loop + 1
 
-   if loop >= 2 and loop <= 5:
-     nextMove = random.choice([1,2,3,4,5])
-     if nextMove == 1:
-       notAnimal, found = guess(Bank, animals, notAnimal)
-     else:
-       found = gameplay(Bank)
+    if loop >= 2 and loop <= 5:
+        nextMove = random.choice([1, 2, 3, 4, 5])
 
-   else:
-          nextMove = random.choice([1,2])
-          if nextMove == 1:
+        if nextMove == 1:
             notAnimal, found = guess(Bank, animals, notAnimal)
-          else:
-            found = gameplay(Bank)
+            if not(found == True):
+             found = PlayerQ()
+
+    else:
+        nextMove = random.choice([1, 2])
+
+        if nextMove == 1:
+            notAnimal, found = guess(Bank, animals, notAnimal)
+            if not(found == True):
+             found = PlayerQ()
